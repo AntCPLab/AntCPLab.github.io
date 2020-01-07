@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: About Alibaba Gemini Lab
 nav_order: 99
 ---
 
