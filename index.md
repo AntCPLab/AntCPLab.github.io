@@ -1,96 +1,76 @@
 ---
 layout: default
-title: Home
+title: What's new
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Alibaba Gemini Lab"
 permalink: /
 ---
 
-# Focus on writing good documentation
-{: .fs-9 }
+# What's new
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
-{: .fs-6 .fw-300 }
+2020.1
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+>Paper "HomoPAI: A Secure Collaborative Machine Learning Platform based on Homomorphic Encryption" accepted by ICDE2020 demo track. Watch the demo video on [优酷](https://v.youku.com/v_show/id_XNDQ4NDQyNzIwOA==) or [YouTube](https://youtu.be/LIWjsnKuOMk).
 
----
+>Yixuan Fang finished her internship with us. Best wishes!
 
-## Getting started
 
-### Dependencies
+## Year 2019
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+2019.12
+>We are named the first place in Track IV of [iDASH2019 secure genome analysis competition](http://www.humangenomeprivacy.org/2019/). 
+>
+>We have open-sourced our competition code to [TF-Encrypted](https://github.com/tf-encrypted/tf-encrypted/pull/721) and received their [official acknowledgements](https://twitter.com/tf_encrypted/status/1207612275663757312) !
 
-### Quick start: Use as a GitHub Pages remote theme
+>Attended NeurIPS2019.
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
-```yaml
-remote_theme: pmarsceill/just-the-docs
-```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+2019.11
+>Invited as panelist to [2019 Westlake International Forum on Cyber Security Research](https://icsr.zju.edu.cn/xihu2019/en/).
 
-### Local installation: Use the gem-based theme
+>Joined [MPC Alliance](https://www.mpcalliance.org/).
 
-1. Install the Ruby Gem
-```bash
-$ gem install just-the-docs
-```
-```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
-```
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-```yaml
-theme: "just-the-docs"
-```
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-```bash
-$ bundle exec just-the-docs rake search:init
-```
-3. Run you local Jekyll server
-```bash
-$ jekyll serve
-```
-```bash
-# .. or if you're using a Gemfile (bundler)
-$ bundle exec jekyll serve
-```
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
+2019.10
+>Short paper [Quantification of the Leakage in Federated Learning](https://arxiv.org/abs/1910.05467) accepted by the Workshop on Federated Learning for Data Privacy and Confidentiality in Conjunction with NeurIPS 2019 (FL-NeurIPS-19). 
 
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
+>Zhaorui Li finished his internship with us. Best wishes!
 
-### Configure Just the Docs
+>Paper [DPSAaS: Multi-Dimensional Data Sharing and Analytics as Services under Local Differential Privacy](http://www.vldb.org/pvldb/vol12/p1862-xu.pdf) accepted by VLDB2019 demo track.
 
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
+2019.9
+>Established working group [P2842 - Recommended Practice for Secure Multi-party Computation](https://standards.ieee.org/project/2842.html) in IEEE Standards Association.
 
----
+>Established working group [Technical framework and application for secure multi-party computation](https://www.itu.int/itu-t/workprog/wp_item.aspx?isn=15245) in ITU-T.
 
-## About the project
+2019.8
+>Attended [the 4th HomomorphicEncryption.org Standards Meeting](http://homomorphicencryption.org/).
 
-Just the Docs is &copy; 2017-2019 by [Patrick Marsceill](http://patrickmarsceill.com).
+>Attended USENIX Sec'2019. 
 
-### License
+2019.3
+>[Chenkai Weng](https://carlweng.github.io/) finished his internship with us. Best wishes!
 
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
+>Paper [Answering multi-dimensional analytical queries under local differential privacy](https://dl.acm.org/doi/10.1145/3299869.3319891) accepted by SIGMOD2019.
 
-### Contributing
+2019.1
+>Paper [Covert Security with Public Verifiability:
+Faster, Leaner, and Simpler](https://eprint.iacr.org/2018/1108.pdf) accepted by EUROCRYPT2019.
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
+## Year 2018
 
-#### Thank you to the contributors of Just the Docs!
+2018.11
+>Invited as panelist to [2018 Westlake International Forum on Cyber Security Research](https://icsr.zju.edu.cn/xihu2018/en/index.htm) .
 
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
+2018.10
+>Attended ACM CCS 2018.
 
-### Code of Conduct
+2018.5
+>Attended [TPMPC2018](https://www.multipartycomputation.com/tpmpc-2018).
 
-Just the Docs is committed to fostering a welcoming community.
+>Witnessed the [inaugural ceremony](https://www.zju.edu.cn/english/2018/0610/c19573a816865/page.htm) of the AZFT Cyberspace Security Lab.
 
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
+## Year 2017
+
+2017.11
+>Attended ACM CCS 2017.
+
+
