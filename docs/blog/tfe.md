@@ -33,6 +33,8 @@ pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)
 
 ## Step 2. Edit the following file config.json
 
+Replace machine:port with your own IP:Port.
+
 ```json
 {
     "alice": "machine1:port1",
