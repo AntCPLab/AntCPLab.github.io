@@ -13,7 +13,7 @@ We have developed several projects based on TFE (e.g. The solution winning the i
 
 # MPC machine learning in five minutes with TF-Encrypted
 
-Here's a simple example showing how to do collaborative machine learning on a vertical splitted database using TF-Encrypted. 
+Here's a simple example showing how to do collaborative machine learning on a vertical splitted database using TFE. 
 
 Suppose there's a dataset containing 7000 samples with 32 features, 16 of which is held by Alice, and the other 16 (and the label) is held by Bob. Alice and Bob wants to train on the joint dataset, but they don't want to send their raw data to each other.
 
@@ -21,7 +21,7 @@ The example dataset could be found here: [aliceTrainFile.csv](https://raw.github
 
 ## Step 1. Prepare three machines and set up environments
 
-Make sure the three machines are able to access each other via IP:Port, check python3 and pip3 is correctly installed, then install TensorFlow and TF-Encrypted on the three machines.
+Make sure the three machines are able to access each other via IP:Port, check python3 and pip3 is correctly installed, then install TensorFlow and TFE on the three machines.
 
 ```shell
 # python3 --version
@@ -68,9 +68,9 @@ python3 training_alice.py
 # Extra notes
 
 ## About crypto-producer
-Currently a third-party crypto-producer is needed for complex tasks such as generating beaver triples, which means TF-Encrypted is a three-party (with honest majority) computation framework. 
+Currently a third-party crypto-producer is needed for complex tasks such as generating beaver triples, which means TFE is a three-party (with honest majority) computation framework. 
 
 We are making progress on eliminating the crypto-producer for the pure two-party case.
 
 ## Production usage
-TF Encrypted is an experimental software and must be hardened before used in production environments.  
+TFE is an experimental software and must be hardened before used in production environments.  
