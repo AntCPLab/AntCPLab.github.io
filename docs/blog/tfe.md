@@ -1,13 +1,15 @@
 ---
 layout: default
-title: Introducing TF Encrypted
+title: Introducing TF-Encrypted
 parent: Blogs
 nav_order: 1
 ---
 
 # Introducing TF-Encrypted
 
-[TF-Encrypted/TFE](https://tf-encrypted.io/) developed by [Dropout Labs](https://dropoutlabs.com/) is an easy-to-use framework for Secure Multi-party Computation (MPC) machine learning in TensorFlow. We have developed several projects based on TFE (e.g. The solution winning the iDASH2019 competition), and are actively contributing to TFE.
+[TF-Encrypted/TFE](https://tf-encrypted.io/) is an open-source framework for Secure Multi-party Computation (MPC) machine learning. The advantage of TFE is that it's built on top of TensorFlow, allowing non-cryptographic experts to quickly experiment MPC machine learning, while leveraging all the advantages of TensorFlow's optimizations, including graph compilation and distributed orchestration. 
+
+We have developed several projects based on TFE (e.g. The solution winning the iDASH2019 competition), and are actively contributing to TFE.
 
 # MPC machine learning in five minutes with TF-Encrypted
 
