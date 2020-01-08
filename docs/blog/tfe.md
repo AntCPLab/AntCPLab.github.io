@@ -44,7 +44,7 @@ pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)
 ## Step 3. Write TFE training code
 We provide an example for Logistic Regression :  [common.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/common.py) , [training_alice.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_alice.py) , [training_bob.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_bob.py)  and [training_server.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_server.py). 
 
-## Step 4. Put the file in the directory
+## Step 4. Copy the files to the same directory
 
 Copy config.json , common.py , training_alice.py , aliceTrainFile.csv to  machine1; 
 
@@ -56,15 +56,17 @@ Copy config.json ,  training_server.py to machine3;
 
 Run the following command on the three machines, and the final model will be printed on machine1. 
 ```shell
-python3 training_bob.py;  
-python3 training_server.py; 
-python3 training_alice.py;
+python3 training_bob.py
+python3 training_server.py
+python3 training_alice.py
 ```
 
 # Extra notes
 
 ## About crypto-producer
-Currently a third-party crypto-producer is needed for complex tasks such as generating beaver triples, which means TF-Encrypted is a three-party (with honest majority) computation framework. We have already made progress on the pure two-party case.
+Currently a third-party crypto-producer is needed for complex tasks such as generating beaver triples, which means TF-Encrypted is a three-party (with honest majority) computation framework. 
+
+We are making progress on eliminating the crypto-producer for the pure two-party case.
 
 ## Production usage
-TF Encrypted is an experimental software and not hardened enough for production environments.  
+TF Encrypted is an experimental software and must be hardened before production environments.  
