@@ -69,4 +69,4 @@ Currently a third-party crypto-producer is needed for complex tasks such as gene
 We are making progress on eliminating the crypto-producer for the pure two-party case.
 
 ## Production usage
-TF Encrypted is an experimental software and must be hardened before production environments.  
+TF Encrypted is an experimental software and must be hardened before used in production environments.  
