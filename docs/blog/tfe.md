@@ -9,7 +9,7 @@ nav_order: 1
 
 [TF-Encrypted/TFE](https://tf-encrypted.io/) developed by [Dropout Labs](https://dropoutlabs.com/) is an easy-to-use framework for Secure Multi-party Computation (MPC) machine learning in TensorFlow. We have developed several projects based on TFE (e.g. The solution winning the iDASH2019 competition), and are actively contributing to TFE.
 
-# Do MPC machine learning in five minutes with TF-Encrypted
+# MPC machine learning in five minutes with TF-Encrypted
 
 Here's a simple example showing how to do collaborative machine learning on a vertical splitted database using TF-Encrypted. 
 
