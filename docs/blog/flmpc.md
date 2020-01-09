@@ -51,8 +51,7 @@ But if we use FL on a few number (e.g. two) of participants, it becomes problema
 The reason is straightforward: Upon seeing the updated model in $i^{th}$ loop, one of the participant can simply remove its update in $i-1^{th}$ loop to 
 figure out the other one's update. It's inevitable as long as a new model is released in clear each round. 
 
-There also exists solutions which encrypt the updates with homomorphic encryption, but as long as it's only **SOMEWHAT** and not **FULLY** homomorphic,
-the updates have to be decrypted at some intermediate step, which triggers the same problem above.
+There also exists solutions which encrypt the updates with homomorphic encryption, but as long as the updates are decrypted at some intermediate step, the same problem exists.
 
 We have a short paper [Quantification of the Leakage in Federated Learning](https://arxiv.org/abs/1910.05467) (in FL-NeurIPS2019) describing this.
 
