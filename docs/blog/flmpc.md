@@ -2,7 +2,7 @@
 layout: default
 title: Federated Learning and Secure Multi-party Computation
 parent: Blogs
-nav_order: 1
+nav_order: 990
 ---
 
 # Different ways to achieve Privacy Preserving Machine Learning (PPML)
