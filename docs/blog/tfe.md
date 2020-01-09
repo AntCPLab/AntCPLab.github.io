@@ -21,7 +21,7 @@ The example dataset could be found here: [aliceTrainFile.csv](https://raw.github
 
 ## Step 1. Prepare three machines and set up environments
 
-Make sure the three machines are able to access each other via IP:Port, check python3 and pip3 is correctly installed, then install TensorFlow and TFE on the three machines.
+Check python3 and pip3 is correctly installed, then install TensorFlow and TFE on the three machines.
 
 ```shell
 # python3 --version
@@ -35,7 +35,7 @@ pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)
 
 ## Step 2. Edit the following file config.json
 
-Replace machine:port with your own IP:Port.
+Replace machine:port with your own IP:Port. Make sure the three machines are able to access each other via IP:Port.
 
 ```json
 {
@@ -58,7 +58,7 @@ Copy config.json ,  training_server.py to machine3;
 
 ## Step 5. Run!
 
-Run the following command on the three machines, and the final model will be printed on machine1. 
+Run the following command on the three machines, and the trained logistic regression model (the weights for each feature) will be printed on machine1. 
 ```shell
 python3 training_bob.py
 python3 training_server.py
