@@ -151,7 +151,7 @@ but does not disclose the contents of $b$ to $A$. This is summarized in the foll
 
 ![](https://hackernoon.com/hn-images/1*k5B114pkbC1utlJeB2W9fw.jpeg)
  
-# From Garbled Circuit to PVC
+# Achieving tighter security model in Garbled Circuit
  
 Only the basics of GC have been described above. In practice, many optimizations exist for GC, including Point & Permute, Free XOR, 
 and Half Gates, and in recent years GC-based solutions have reached the point where they can be efficiently implemented. 
