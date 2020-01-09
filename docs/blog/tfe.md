@@ -15,7 +15,7 @@ We have developed several projects based on TFE (e.g. The solution winning the i
 
 Suppose Alice is a bank, Bob is a government. Alice and Bob know many individuals in common, and both parties knows some information about the individuals from different aspects (e.g., Alice knows their credit card bills, while Bob knows their tax information), but only Bob knows wether the individuals have some fraud history or not (denoted by label =1 or 0). Now Bob wants to build a fraud detection model with the help of Alice. Alice is willing to collaborate, but she consider her part of user information sensitive and is not willing to share them directly.
 
-This problem could be summarized as a how to do secure collaborative machine learning training on a vertical split dataset. Here's a simple walkthrough showing how it could be done efficiently using TFE. 
+This problem could be summarized as a how to do secure collaborative machine learning training on a vertically split dataset. Here's a simple walkthrough showing how it could be done efficiently using TFE. 
 
 
 Suppose the dataset contains 7000 samples with 32 features, 16 of which is held by Alice, and the other 16 (and the label) is held by Bob. A random generated example dataset could be found here: [aliceTrainFile.csv](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/aliceTrainFile.csv)  and [bobTrainFileWithLabel.csv](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/bobTrainFileWithLabel.csv). 
