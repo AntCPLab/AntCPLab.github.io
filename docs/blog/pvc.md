@@ -2,7 +2,7 @@
 layout: default
 title: Publicly verifiable covert (PVC) explained
 parent: Blogs
-nav_order: 2
+nav_order: 992
 ---
 
 ![](https://hackernoon.com/hn-images/1*RPBMdyhlc85HWe2hpAf2IA.jpeg)
