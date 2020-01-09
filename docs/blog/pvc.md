@@ -5,7 +5,7 @@ parent: Blogs
 nav_order: 2
 ---
 
- <div align="center">![](https://hackernoon.com/hn-images/1*RPBMdyhlc85HWe2hpAf2IA.jpeg)</div>
+![](https://hackernoon.com/hn-images/1*RPBMdyhlc85HWe2hpAf2IA.jpeg)
 
 # PVC Security: An Intermediary-free Solution to Safe Data Sharing Between Rational Parties
 
@@ -55,7 +55,7 @@ on behalf of multiple mutually distrusting parties. MPC allows each party to pro
 seeing the input of the other parties. In principle, this provides a way of deriving value from data without having to disclose that 
 data to a third party.
 
- <div align="center">![](https://hackernoon.com/hn-images/1*ZUdbduCX27fG86cd2aC-jg.jpeg) With MPC, parties can share insights without sharing their data</div>
+![](https://hackernoon.com/hn-images/1*ZUdbduCX27fG86cd2aC-jg.jpeg)
 
 
 There are two primary ways of implementing MPC: garbled circuit (GC) and secret sharing. The solution adopted by the research team is 
@@ -68,7 +68,7 @@ of only AND and XOR logic gates.
 
 A gate is actually a truth table. For example, the truth table of an AND gate is:
 
- <div align="center">![](https://hackernoon.com/hn-images/1*3PlbsZGcVy5UqA6nPq_gsg.png)</div>
+![](https://hackernoon.com/hn-images/1*3PlbsZGcVy5UqA6nPq_gsg.png)
 
 
 In this example, the bottom-right cell indicates that if both input wires have a value of 1, the value of the output wire=1 
@@ -76,7 +76,7 @@ In this example, the bottom-right cell indicates that if both input wires have a
 
 Now, assume that each wire is encrypted with a different key. The truth table now looks like this:
 
- <div align="center">![](https://hackernoon.com/hn-images/1*NzhTnAdbM6ZK5XAP-dKRyA.png)</div>
+![](https://hackernoon.com/hn-images/1*NzhTnAdbM6ZK5XAP-dKRyA.png)
 
 In this example, the bottom-right cell indicates that if the gate input is $b$ and $d$, then the gate outputs an encrypted $f$ (with 
 the secret keys $b$ and $d$). This gate remains the same from the perspective of the control flow, the only difference is that the input and 
@@ -138,7 +138,7 @@ is given below. In this example, $S$ (sender) is the travel agency and $R$ (rece
 If $R$ wishes to obtain $M_1$, he just needs to revise $B=g^b$ to $B=Ag^b$ in step 2.
 
 
- <div align="center">![](https://hackernoon.com/hn-images/1*k5B114pkbC1utlJeB2W9fw.jpeg) Oblivious transfer: everyone is happy, while none are the wiser </div>
+![](https://hackernoon.com/hn-images/1*k5B114pkbC1utlJeB2W9fw.jpeg)
  
 ## Garbled circuit with oblivious transfer 
  
@@ -149,7 +149,7 @@ To recap the "problematic" Step 4 in the above GC computation:
 This can be securely solved with OT, where $A$ plays Sender, and $B$ plays Receiver. $B$ obtains $Encrypt(b)$ from $A$, 
 but does not disclose the contents of $b$ to $A$. This is summarized in the following figure:
 
- <div align="center">![](https://hackernoon.com/hn-images/1*k5B114pkbC1utlJeB2W9fw.jpeg)
+![](https://hackernoon.com/hn-images/1*k5B114pkbC1utlJeB2W9fw.jpeg)
  
 # From Garbled Circuit to PVC
  
