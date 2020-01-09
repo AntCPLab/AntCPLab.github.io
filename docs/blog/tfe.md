@@ -9,9 +9,11 @@ nav_order: 1
 
 [TF-Encrypted/TFE](https://tf-encrypted.io/) is an open-source framework for Secure Multi-party Computation (MPC) machine learning. The advantage of TFE is that it's built on top of TensorFlow, allowing non-cryptographic experts to quickly experiment MPC machine learning, while leveraging all the advantages of TensorFlow's optimizations, including graph compilation and distributed orchestration. 
 
-We have developed several projects based on TFE (e.g. The solution winning the iDASH2019 competition), and are actively contributing to TFE.
+We have developed several projects based on TFE (e.g. The solution winning the iDASH2019 competition), and are actively contributing to TFE. In this blog we will describe a proof-of-concept use case, and give a walkthrough on how to do it with TFE.
 
 # MPC machine learning training in five minutes with TF-Encrypted
+
+## The use case: Collaborative fraud detection
 
 Suppose Alice is a bank, Bob is a government. Alice and Bob know many individuals in common, and both parties knows some information about the individuals from different aspects (e.g., Alice knows their credit card bills, while Bob knows their tax information), but only Bob knows wether the individuals have some fraud history or not (denoted by label =1 or 0). Now Bob wants to build a fraud detection model with the help of Alice. Alice is willing to collaborate, but she consider her part of user information sensitive and is not willing to share them directly.
 
