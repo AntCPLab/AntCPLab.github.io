@@ -25,7 +25,7 @@ could roughly summarize the FL architecture:
 ![](https://storage.googleapis.com/groundai-web-prod/media/users/user_237920/project_386956/images/x10.png)
 
 1.	The coordinator sends the initial model $W$ to all the participants;
-2.	The $i^th$ participant trains locally using $W$ and obtain a update $\delta W_i$;
+2.	The $i^{th}$ participant trains locally using $W$ and obtain a update $\Delta W_i$;
 3.	All the participants send their updates to the coordinator;
 4.	The coordinator aggregates the updates and use them to update $W$;
 5.  Repeat the Step 1-4 loop until converge.
@@ -33,7 +33,7 @@ could roughly summarize the FL architecture:
 ## Secure aggregation
 
 At first glance, the security lies in whether the update $\delta W_i$ leak information about the underlying data samples. Unfortunately 
-a lot of research works have already made a conclusion that the answer is yes: 
+a lot of research works have already made a conclusion that the answer is **YES**: 
 [Exploiting unintended feature leakage in collaborative learning](https://arxiv.org/abs/1805.04049)(in SP2019),
 [Deep leakage from gradients](https://arxiv.org/abs/1906.08935) (in NeurIPS2019),
 [Beyond Inferring Class Representatives: User-Level Privacy Leakage From Federated Learning](https://arxiv.org/abs/1812.00535)(in INFOCOM2019).
@@ -48,7 +48,7 @@ Note that secure aggregation is only effective if there's a big number of partic
 where the participants are mobile devices.  [Google Gboard](https://www.youtube.com/watch?v=89BGjQYA0uE) is one of such use cases.
  
 But if we use FL on a few number (e.g. two) of participants, it becomes problematic, even with secure aggregation. 
-The reason is straightforward: Upon seeing the updated model in $i^th$ loop, one of the participant can simply remove its update in $i-1^th$ loop to 
+The reason is straightforward: Upon seeing the updated model in $i^{th}$ loop, one of the participant can simply remove its update in $i-1^{th}$ loop to 
 figure out the other one's update. It's inevitable as long as a new model is released in clear each round. 
 
 There also exists solutions which encrypt the updates with homomorphic encryption, but as long as it's only **partial** and not **fully** homomorphic,
@@ -66,15 +66,15 @@ iteration.
 MPC enjoys a much higher security level, at the price of expensive cryptographic operations, which often results in highed computation 
 and communication cost. FL loosen the security requirements, enabling more clear and efficient implementation. 
 
-It's worth mentioning MPC ML is already very efficient for simple model and small participant numbers (e.g. The logistic regression example in [our previous blog]
-(https://alibaba-gemini-lab.github.io/docs/blog/tfe/) could be done in several seconds). However, in complex tasks such as training on millions of mobile phones, 
+It's worth mentioning MPC ML is already very efficient for simple model and small participant numbers. E.g. The logistic regression example in [our previous blog]
+(https://alibaba-gemini-lab.github.io/docs/blog/tfe/) could be done in several seconds. However, in complex tasks such as training on millions of mobile phones, 
 probably FL is the only realistic solution.
 
 # Conclusion
 
 To compare FL and MPC as a conclusion, we draw the following figure, which only stands for the writer's personal view.
 
-                    | Security level | Efficiency | Suitable number of participants | Suitable ML model
+Methods | Security level | Efficiency | Suitable number of participants | Suitable ML model
 ----                | ---           | ---           | ---            | 
 Secure Multi-party Computation  | High (Provable secure) | Low  | Small (Cross-organization collaboration)  |  Simple model (Logistic regression)
  Federated Learning |  Medium (Leak intermediate information) | Medium | Big (Edge computing)  | All
