@@ -9,9 +9,9 @@ nav_order: 2
 
 # PVC Security: An Intermediary-free Solution to Safe Data Sharing Between Rational Parties
 
-This article is part of the Academic Alibaba series and is taken from the paper entitled “Covert Security with Public Verifiability: 
+_This article is part of the Academic Alibaba series and is taken from the paper entitled “Covert Security with Public Verifiability: 
 Faster, Leaner, and Simpler” by Cheng Hong, Jonathan Katz, Vladimir Kolesnikov, Wen-jie Lu and Xiao Wang. The full paper can be read 
-[here](https://eprint.iacr.org/2018/1108.pdf).
+[here](https://eprint.iacr.org/2018/1108.pdf)._
 
 How can mutually mistrustful parties collaborate to reap the full value of their collective data?
 
@@ -166,7 +166,7 @@ Keen observers may have noticed the following issue with the example given earli
 $B$ is correct?
 
 For example, assume that $A$ and $B$ want to compare two integer values $a$ and $b$, and they agreed on the function $F(a, b)=a>b?1:0$. 
-A malicious A could simply make another function $F’$ (for example $F’(a, b)$ output the left-most bits of $b$) that violates $B$'s 
+But A could simply make another function $F’$ (for example $F’(a, b)$ output the left-most bits of $b$) that violates $B$'s 
 privacy. And since the function is sent to $B$ using a GC, $B$ has no way to detect the violation.
 
 This problem is one of malicious behaviors on the part of $A$. GC relies on the circuit generator conforming to a semi-honest behavioral 
