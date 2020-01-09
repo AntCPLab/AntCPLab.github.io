@@ -125,7 +125,11 @@ encrypts all the $n$ pieces of data it owns using an encryption algorithm with p
 sends them to Joe. Joe can only decrypt the data relating to attraction $A$ from the ciphertext, but cannot decrypt the remaining $n-1$
 pieces of data.
 
-Taking $n=2$ as an example, a description of one possible "1 of 2" OT method by [Chou et.al.](https://eprint.iacr.org/2015/267.pdf) 
+Taking $n=2$ as an example, the following figure describes a "1 of 2" OT.
+
+![](https://hackernoon.com/hn-images/1*etRwt-0NnoCGJYC2eUGCxw.jpeg)
+
+One possible "1 of 2" OT solution by [Chou et.al.](https://eprint.iacr.org/2015/267.pdf) 
 is given below. In this example, $S$ (sender) is the travel agency and $R$ (receiver) is Joe Bloggs. $S$ owns two pieces of data 
 ($M_0$ and $M_1$), and R hopes to obtain $M_0$.
 
@@ -138,7 +142,6 @@ is given below. In this example, $S$ (sender) is the travel agency and $R$ (rece
 If $R$ wishes to obtain $M_1$, he just needs to revise $B=g^b$ to $B=Ag^b$ in step 2.
 
 
-![](https://hackernoon.com/hn-images/1*k5B114pkbC1utlJeB2W9fw.jpeg)
  
 ## Garbled circuit with oblivious transfer 
  
