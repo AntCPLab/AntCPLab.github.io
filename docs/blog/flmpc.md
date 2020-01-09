@@ -75,6 +75,6 @@ As conclusion, we compare FL with MPC using the following figure, which only sta
 
 Methods | Security level | Efficiency | Suitable number of participants | Suitable model for ML training 
 ----                | ---           | ---           | ---            | 
-Secure Multi-party Computation  | Provable secure<br>★★★★★ | Low  | Small (Cross-organization collaboration)  |  Simple model (Logistic regression)
+Secure Multi-party Computation  | Provable secure<br>★★★★★ | Low  | Small (Cross-organization collaboration)  |  Simpler model 
  Federated Learning |  Leak intermediate information<br>★★★☆☆ | Medium | Big (Edge computing)  | All
 
