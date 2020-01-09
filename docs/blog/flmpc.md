@@ -32,7 +32,7 @@ could roughly summarize the FL architecture:
 
 ## Secure aggregation
 
-At first glance, the security lies in whether the update $\delta W_i$ leak information about the underlying data samples. Unfortunately 
+At first glance, the security lies in whether the update $\Delta W_i$ leak information about the underlying data samples. Unfortunately 
 a lot of research works have already made a conclusion that the answer is **YES**: 
 [Exploiting unintended feature leakage in collaborative learning](https://arxiv.org/abs/1805.04049) (in SP2019),
 [Deep leakage from gradients](https://arxiv.org/abs/1906.08935) (in NeurIPS2019),
@@ -54,7 +54,7 @@ figure out the other one's update. It's inevitable as long as a new model is rel
 There also exists solutions which encrypt the updates with homomorphic encryption, but as long as it's only **SOMEWHAT** and not **FULLY** homomorphic,
 the updates have to be decrypted at some intermediate step, which triggers the same problem above.
 
-We have a short paper [Quantification of the Leakage in Federated Learning](https://arxiv.org/abs/1910.05467)(in FL-NeurIPS2019) describing this.
+We have a short paper [Quantification of the Leakage in Federated Learning](https://arxiv.org/abs/1910.05467) (in FL-NeurIPS2019) describing this.
 
 # Comparing FL with Secure Multi-party Computation (MPC)
 
@@ -63,10 +63,10 @@ MPC is a cryptographic definition which reveals no intermediate information duri
 result. In contrast, FL is a machine learning definition that iteratively collects and updates the model, which is revealed in each 
 iteration.
 
-MPC enjoys a much higher security level, at the price of expensive cryptographic operations, which often results in highed computation 
+MPC enjoys a much higher security level, at the price of expensive cryptographic operations, which often results in higher computation 
 and communication cost. FL loosen the security requirements, enabling more clear and efficient implementation. 
 
-It's worth mentioning MPC ML is already very efficient for simple model and small participant numbers. E.g. The logistic regression example in [our previous blog](https://alibaba-gemini-lab.github.io/docs/blog/tfe/) could be done in several seconds. However, in complex tasks such as training on millions of mobile phones, 
+It's worth mentioning MPC is already very efficient for simple model and small participant numbers. E.g. The logistic regression example in [our previous blog](https://alibaba-gemini-lab.github.io/docs/blog/tfe/) could be done in several seconds. However, in complex tasks such as training on millions of mobile phones, 
 probably FL is the only realistic solution.
 
 # Conclusion
@@ -75,6 +75,7 @@ As conclusion, we compare FL with MPC using the following figure, which only sta
 
 Methods | Security level | Efficiency | Suitable number of participants | Suitable model for ML training 
 ----                | ---           | ---           | ---            | 
-Secure Multi-party Computation  | High (Provable secure) | Low  | Small (Cross-organization collaboration)  |  Simple model (Logistic regression)
- Federated Learning |  Medium (Leak intermediate information) | Medium | Big (Edge computing)  | All
+Secure Multi-party Computation  | Provable secure \ ★★★★★
+ | Low  | Small (Cross-organization collaboration)  |  Simple model (Logistic regression)
+ Federated Learning |  Leak intermediate information \ ★★★☆☆ | Medium | Big (Edge computing)  | All
 
