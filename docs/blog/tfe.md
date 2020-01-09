@@ -11,13 +11,15 @@ nav_order: 1
 
 We have developed several projects based on TFE (e.g. The solution winning the iDASH2019 competition), and are actively contributing to TFE.
 
-# MPC machine learning in five minutes with TF-Encrypted
+# MPC machine learning training in five minutes with TF-Encrypted
 
-Here's a simple example showing how to do collaborative machine learning on a vertical splitted database using TFE. 
+Suppose Alice is a bank, Bob is a government. Alice and Bob know many individuals in common, and both parties knows some information about the individuals from different aspects (e.g., Alice knows their credit card bills, while Bob knows their tax information), but only Bob knows wether the individuals have some fraud history or not (denoted by label =1 or 0). Now Bob wants to build a fraud detection model with the help of Alice. Alice is willing to collaborate, but she consider her part of user information sensitive and is not willing to share them directly.
 
-Suppose there's a dataset containing 7000 samples with 32 features, 16 of which is held by Alice, and the other 16 (and the label) is held by Bob. Alice and Bob wants to train on the joint dataset, but they don't want to send their raw data to each other.
+This problem could be summarized as a how to do secure collaborative machine learning training on a vertical split dataset. Here's a simple walkthrough showing how it could be done efficiently using TFE. 
 
-The example dataset could be found here: [aliceTrainFile.csv](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/aliceTrainFile.csv)  and [bobTrainFileWithLabel.csv](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/bobTrainFileWithLabel.csv).
+
+Suppose the dataset contains 7000 samples with 32 features, 16 of which is held by Alice, and the other 16 (and the label) is held by Bob. A random generated example dataset could be found here: [aliceTrainFile.csv](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/aliceTrainFile.csv)  and [bobTrainFileWithLabel.csv](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/bobTrainFileWithLabel.csv). 
+
 
 ## Step 1. Prepare three machines and set up environments
 
