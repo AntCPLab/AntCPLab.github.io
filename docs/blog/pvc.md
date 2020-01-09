@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Covert security with public verifiability explained
+title: Publicly verifiable covert (PVC) explained
 parent: Blogs
 nav_order: 2
 ---
