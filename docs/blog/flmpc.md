@@ -5,7 +5,7 @@ parent: Blogs
 nav_order: 990
 ---
 
-# Different ways to achieve Privacy Preserving Machine Learning (PPML)
+# Different Privacy Preserving Machine Learning (PPML) methods
 
 Although people talked about PPML everywhere, PPML is a term that is not well defined.  Generally it's safe to say that in PPML, people use 
 technologies including  (but not limited to) differential privacy / homomorphic encryption / secure multi-party computation / trusted 
@@ -25,7 +25,7 @@ could roughly summarize the FL architecture:
 ![](https://storage.googleapis.com/groundai-web-prod/media/users/user_237920/project_386956/images/x10.png)
 
 1.	The coordinator sends the initial model $W$ to all the participants;
-2.	The $i^{th}$ participant trains locally using $W$ and obtain a update $\Delta W_i$;
+2.	The $i^{th}$ participant trains locally using $W$ and obtains an update $\Delta W_i$;
 3.	All the participants send their updates to the coordinator;
 4.	The coordinator aggregates the updates and use them to update $W$;
 5.  Repeat the Step 1-4 loop until converge.
