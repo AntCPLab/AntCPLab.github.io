@@ -13,8 +13,8 @@ execution environment to protect the data during training or inference.
 
 Federated learning (FL) [orginally proposed by Google](https://arxiv.org/abs/1602.05629v1), is one of those PPML technologies. According to the 
 definitions in [wikipedia](https://en.wikipedia.org/wiki/Federated_learning), FL is a machine learning technique that trains a model 
-across multiple decentralized edge devices or servers holding local data samples. FL's design of exchanging parameters instead of 
-exchanging raw data provide users with a sense of security, which has made FL one of the most promising PPML techniques.
+across multiple decentralized edge devices or servers holding local data samples. FL has a design of exchanging parameters instead of 
+exchanging raw data, which provides users with a sense of security, and has made FL one of the most promising PPML techniques.
 
 # Main idea of FL
 
