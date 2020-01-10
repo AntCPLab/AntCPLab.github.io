@@ -57,7 +57,7 @@ We have a short paper [Quantification of the Leakage in Federated Learning](http
 
 # Comparing FL with Secure Multi-party Computation (MPC)
 
-We introduced MPC in our [previous blog](https://alibaba-gemini-lab.github.io/docs/blog/pvc/). Briefly speaking, 
+We introduced MPC in [our previous blog](https://alibaba-gemini-lab.github.io/docs/blog/pvc/). Briefly speaking, 
 MPC is a cryptographic definition which reveals no intermediate information during the whole computation, all it reveals is the final 
 result. In contrast, FL is a machine learning definition that iteratively collects and updates the model, which is revealed in each 
 iteration.
@@ -65,7 +65,7 @@ iteration.
 MPC enjoys a much higher security level, at the price of expensive cryptographic operations, which often results in higher computation 
 and communication cost. FL loosen the security requirements, enabling more clear and efficient implementation. 
 
-It's worth mentioning MPC is already very efficient for simple model and small participant numbers. E.g. The logistic regression example in [our previous blog](https://alibaba-gemini-lab.github.io/docs/blog/tfe/) could be done in several seconds. However, in complex tasks such as training on millions of mobile phones, 
+It's worth mentioning MPC is already very efficient for simple model and small participant numbers. E.g. The logistic regression example in [our another blog](https://alibaba-gemini-lab.github.io/docs/blog/tfe/) could be done in several seconds. However, in complex tasks such as training on millions of mobile phones, 
 probably FL is the only realistic solution.
 
 # Conclusion
