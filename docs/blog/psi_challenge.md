@@ -1,3 +1,10 @@
+---
+layout: default
+title: Publicly verifiable covert (PVC) explained
+parent: Blogs
+nav_order: 989
+---
+
 # Annoucing a challenge in breaking the ECDH PSI
 
 ## The ECDH PSI algorithm explained
@@ -12,7 +19,7 @@ This is know as the Private Set Intersection problem.
 
 The ECDH PSI algorithm is possibly the simplest among all the PSI algorithms. It works like this:
 
-1. Alice and Bob agree on an EC curve.
+1. Alice and Bob agree on an EC curve, and each choose a secret key s_a and s_b.
 2. Alice  and Bob hash the elements in $A,B$ to the EC curve. Let the new set be $PA,PB$.
 3. Alice mask $PA$ with her secret key: $ Mask(PA_i) = PA_i*s_a $, and send ${PA_i*s_a}_{i=1,..m}$ to Bob.
 4. Bob mask $PB$ with his secret key: $ Mask(PB_i) = PB_i*s_b $, and send ${PB_i*s_b}_{i=1,..n}$ to Alice.
@@ -28,5 +35,9 @@ The most interesting thing comes here: Does there really exist a solid malicious
 
 
 
-## Task: Design a solid attack which allows Bob to succesfully recover at least one element from 
+## Task
+
+Design a solid attack which allows Bob to succesfully recover at least one element from 
 Alice's list which is not in the intersection.
+
+Click contact for a $2000 reward if you find one !
