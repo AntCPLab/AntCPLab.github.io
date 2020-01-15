@@ -20,11 +20,11 @@ The ECDH PSI algorithm is possibly the simplest among all the PSI algorithms. It
 
 1. Alice and Bob agree on an EC curve, and each choose a secret key $s_a$ and $s_b$.
 2. Alice  and Bob hash the elements in $A,B$ to the EC curve. Let the new set be $PA,PB$.
-3. Alice masks $PA$ with her secret key: $ Mask(PA_i) = PA_i\cdot s_a $, and send ${PA_i\cdot s_a} (i=1,..m)$ to Bob.
-4. Bob masks $PB$ with his secret key: $ Mask(PB_i) = PB_i \cdot s_b $, and send ${PB_i \cdot s_b} (i=1,..n}$ to Alice.
-5. Alice masks $PB_i \cdot s_b (i=1,...n) $ with her secret key, obtaining $PB_i \cdot s_b \cdot s_a (i=1,...n)$, and send them back to Bob.
-6. Bob mask $PA_i \cdot s_a (i=1,..m)$ with his secret key, obtaining $PA_i \cdot s_a \cdot s_b (i=1,..m)$, and send them back to Alice.
-7. Alice locally compare ${PA_i \cdot s_a \cdot s_b} (i=1,..m)$ with ${PB_i \cdot s_b \cdot s_a} (i=1,..n)$. For example if $A_2 = B_3$, she will find
+3. Alice masks $PA$ with her secret key: $ Mask(PA_i) = PA_i\cdot s_a $, and sends ${PA_i\cdot s_a} (i=1,..m)$ to Bob.
+4. Bob masks $PB$ with his secret key: $ Mask(PB_i) = PB_i \cdot s_b $, and sends ${PB_i \cdot s_b} (i=1,..n}$ to Alice.
+5. Alice masks $PB_i \cdot s_b (i=1,...n) $ with her secret key, obtaining $PB_i \cdot s_b \cdot s_a (i=1,...n)$, and sends them back to Bob.
+6. Bob masks $PA_i \cdot s_a (i=1,..m)$ with his secret key, obtaining $PA_i \cdot s_a \cdot s_b (i=1,..m)$, and sends them back to Alice.
+7. Alice locally compares ${PA_i \cdot s_a \cdot s_b} (i=1,..m)$ with ${PB_i \cdot s_b \cdot s_a} (i=1,..n)$, and finds out the intersection. For example if $A_2 = B_3$, she will find
 $PA_2 \cdot s_a \cdot s_b = PB_3 \cdot s_b \cdot s_a $ as well.
 
 
