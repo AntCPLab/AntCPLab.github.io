@@ -7,13 +7,12 @@ nav_order: 989
 
 # Annoucing a challenge in breaking the ECDH PSI
 
-## The ECDH PSI algorithm explained
 
 ## Introduction of PSI (private set intersection)
 
 Alice has a set $A={A_1, A_2, .... A_m}$, Bob has a set $B={B_1, B_2, .... B_n}$. 
 They want to figure out the intersect set $A \bigcap B$ without leaking the other elements which are not in the intersection. 
-This is know as the Private Set Intersection problem.
+This is well know as the Private Set Intersection problem.
 
 ## Introduction of ECDH PSI
 
@@ -31,7 +30,8 @@ $PA_2*s_a*s_b = PB_3*s_b*s_a $ as well.
 
 
 Due to some subtle cryptographic issues, this algorithm is semi-honest, but not maliciously secure. 
-The most interesting thing comes here: Does there really exist a solid malicious attack against this protocol which is only semi-honest?
+
+The most interesting thing arises here: Does there really exist a solid malicious attack against this protocol which is only semi-honest?
 
 
 
