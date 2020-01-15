@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publicly verifiable covert (PVC) explained
+title: Annoucing a challenge in breaking the ECDH PSI
 parent: Blogs
 nav_order: 989
 ---
