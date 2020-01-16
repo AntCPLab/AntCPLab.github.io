@@ -27,9 +27,7 @@ The ECDH PSI algorithm is possibly the simplest among all the PSI algorithms. It
 7. Alice locally compares ${PA_i \cdot s_a \cdot s_b} (i=1,...m)$ with ${PB_i \cdot s_b \cdot s_a} (i=1,...n)$, and finds out the intersection. For example if $A_2 = B_3$, she will find
 $PA_2 \cdot s_a \cdot s_b = PB_3 \cdot s_b \cdot s_a $ as well.
 
-
-
-Due to some subtle cryptographic issues, this algorithm is semi-honest, but not maliciously secure. 
+We have deployed several successful commercial use cases with our collaborators using the above algorithm (using Curve25519). But due to some subtle cryptographic issues, this algorithm is semi-honest, but not maliciously secure.
 
 The most interesting thing arises here: Does there really exist a solid malicious attack against this protocol which is only semi-honest?
 
