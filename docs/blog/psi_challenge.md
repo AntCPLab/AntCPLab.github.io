@@ -40,4 +40,4 @@ Alice's list which is not in the intersection.
 
 Note that the target of this challenge is to find some vulnerablities which only exist in semi-honest protocols, so "attacks" such as "Can Bob add some elements to his list which he does not actually own" is not in this scope, because they also exist for malicious protocols.
 
-Click Menu -> About -> Contact for a $2000 reward if you find one !
+Click Menu -> About us-> Contact for a $2000 reward if you find one !
