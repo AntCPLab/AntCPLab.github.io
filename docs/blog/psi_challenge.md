@@ -12,7 +12,7 @@ nav_order: 989
 
 Alice has a set $A={A_1, A_2, .... A_m}$, Bob has a set $B={B_1, B_2, .... B_n}$. 
 They want to figure out the intersect set $A \bigcap B$ without leaking the other elements which are not in the intersection. 
-This is well know as the Private Set Intersection problem.
+This is well known as the Private Set Intersection problem.
 
 ## Introduction of ECDH PSI
 
