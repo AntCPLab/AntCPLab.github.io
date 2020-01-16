@@ -18,7 +18,7 @@ This is well known as the Private Set Intersection problem.
 
 The ECDH PSI algorithm is possibly the simplest among all the PSI algorithms. It works like this:
 
-1. Alice and Bob agree on an EC curve, and each choose a secret key $s_a$ and $s_b$.
+1. Alice and Bob agree on an EC curve, and each choose a secret key $s_a$ and $s_b$. In this challenge let it be Curve25519, and $s_a$ and $s_b$ are chosen according to the secret key specification of Curve215519.
 2. Alice  and Bob hash the elements in $A,B$ to the EC curve. Let the new set be $PA,PB$.
 3. Alice masks $PA$ with her secret key: $ Mask(PA_i) = PA_i\cdot s_a $, and sends ${PA_i\cdot s_a} (i=1,...m)$ to Bob.
 4. Bob masks $PB$ with his secret key: $ Mask(PB_i) = PB_i \cdot s_b $, and sends ${PB_i\cdot s_b} (i=1,...n)$ to Alice.
