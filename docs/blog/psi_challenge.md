@@ -40,4 +40,6 @@ The most interesting thing arises here: Does there really exist a solid maliciou
 Design a solid attack which allows Bob to succesfully recover at least one element from 
 Alice's list which is not in the intersection.
 
-Click contact for a $2000 reward if you find one !
+Note that the target of this challenge is to find some vulnerablities which only exist in semi-honest protocols, so "attacks" such as "Can Bob add some elements to his list which he does not actually own" is not in this scope, because they also exist for malicious protocols.
+
+Click Menu -> About -> Contact for a $2000 reward if you find one !
