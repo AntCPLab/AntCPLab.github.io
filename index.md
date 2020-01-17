@@ -9,6 +9,7 @@ permalink: /
 # What's new
 
 2020.1
+>Paper "Secure Social Recommendation based on Secret Sharing" accepted by ECAI2020.
 
 >Paper "HomoPAI: A Secure Collaborative Machine Learning Platform based on Homomorphic Encryption" accepted by ICDE2020 demo track. Watch the demo video on [优酷](https://v.youku.com/v_show/id_XNDQ4NDQyNzIwOA==) or [YouTube](https://youtu.be/LIWjsnKuOMk).
 
