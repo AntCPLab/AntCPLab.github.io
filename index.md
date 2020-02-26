@@ -8,6 +8,9 @@ permalink: /
 
 # What's new
 
+2020.2
+>Paper [Privacy-preserving collaborative machine learning on genomic data using TensorFlow](https://arxiv.org/abs/2002.04344) accepted as oral presentation to the Trustworthy ML Workshop co-located with ICLR 2020. This paper describes our winning solution to the iDASH2019 competition.
+
 2020.1
 >Paper "Secure Social Recommendation based on Secret Sharing" accepted by ECAI2020.
 
