@@ -36,8 +36,21 @@ The most interesting thing arises here: Does there really exist a solid maliciou
 ## Task
 
 Design a solid attack which allows Bob to succesfully recover at least one element from 
-Alice's list which is not in the intersection.
+Alice's list which is not in the intersection. ~~Note that the target of this challenge is to find some vulnerablities which only exist in semi-honest protocols, so "attacks" such as "Can Bob add some elements to his list which he does not actually own" is not in this scope, because they also exist for malicious protocols.~~
 
-Note that the target of this challenge is to find some vulnerablities which only exist in semi-honest protocols, so "attacks" such as "Can Bob add some elements to his list which he does not actually own" is not in this scope, because they also exist for malicious protocols.
+### UPDATE
+
+We received valuable suggestions for the above note: 
+>The attack of "Bob add some elements to his list which he does not actually own" does not hold for maliciously-secure protocols, because Bob must commit to his input.
+
+We admit that this is right. Theoretically, altering input **before the protocol begin** is not considered as a malicious behavior, while altering input **after the protocol begin** is indeed malicious. This is because in simulation proof, we use the "input" to build the "ideal world". So we change the restriction to a more well-defined one as follows:
+
+Note that the target of this challenge is to find some vulnerabilities in data confidentiality rather than integrity or usability, so these kinds of attacks are not considered:
+  1. "Attacks" that reach the same result by honestly using some other inputs. 
+  >Example: Bob change his input to some other $B'$ **after the protocol begin**. This is a malicious behavior and Bob may recover elements of $B'$ from the victim. But Bob could reach the same result by setting his input to $B'$ **before the protocol begin** and act honestly. Thus this kind of attack is not what we need. 
+  2. "Attacks" that lead to fairness problem. 
+  >Example: Bob (partially) send some garbage in Step 6.   
+  3. Combining 1 and 2.
+  >Example: Bob change his input to some other $B'$ **after the protocol begin**, and send garbage in Step 6. Bob could reach the same result by setting his input to $B'$ **before the protocol begin** and send garbage.
 
 Click Menu -> About us-> Contact for a $2000 reward if you find one !
