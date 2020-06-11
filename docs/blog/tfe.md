@@ -50,7 +50,7 @@ Replace machine:port with your own IP:Port. Make sure the three machines are abl
 ```
 
 ## Step 3. Write TFE training code
-We provide an example for Logistic Regression :  [common.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/common.py) , [training_alice.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_alice.py) , [training_bob.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_bob.py)  and [training_server.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_server.py). 
+We provide an example for Logistic Regression :  [common.py](https://github.com/Alibaba-Gemini-Lab/tf-encrypted/blob/744fe406dfd1c80c08d86e0d83e8e7258d9b9459/examples/logistic/common.py) , [training_alice.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_alice.py) , [training_bob.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_bob.py)  and [training_server.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_server.py). 
 
 ## Step 4. Copy the files to the same directory
 
