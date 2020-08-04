@@ -5,7 +5,7 @@ parent: Blogs
 nav_order: 989
 ---
 
-# Challenge in breaking the ECDH PSI 
+# Challenge in breaking the ECDH PSI  (Halted)
 
 
 ## Introduction of PSI (private set intersection)
