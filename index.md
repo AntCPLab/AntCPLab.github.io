@@ -8,6 +8,9 @@ permalink: /
 
 # What's new
 
+2020.8
+>Giving a [talk](https://isc.360.com/2020/detail.html?id=2&vid=30) about Federated learning and Secure Multi-party Computation in [ISC2020](https://isc.360.com).
+
 2020.2
 >Paper [Privacy-preserving collaborative machine learning on genomic data using TensorFlow](https://arxiv.org/abs/2002.04344) accepted  to the Trustworthy ML Workshop co-located with ICLR 2020. **Update: We received the best paper award !** 
 
