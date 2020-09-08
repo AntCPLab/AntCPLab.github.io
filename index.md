@@ -8,6 +8,9 @@ permalink: /
 
 # What's new
 
+2020.9
+>Yiping Ma finished her internship with us. Best wishes!
+
 2020.8
 >Giving a [talk](https://isc.360.com/2020/another.html?uid=5010) about Federated learning and Secure Multi-party Computation in [ISC2020](https://isc.360.com).
 
