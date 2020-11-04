@@ -15,6 +15,8 @@ permalink: /
 
 >Paper "Faster Secure Multiparty Computation of Adaptive Gradient Descent" accepted by the PPMLP workshop in Conjunction with CCS2020.
 
+>Paper [hPRESS: A Hardware-enhanced Proxy Re-encryption Scheme using Secure Enclave](https://ieeexplore.ieee.org/document/9187972) accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).
+
 2020.8
 >Giving a [talk](https://isc.360.com/2020/another.html?uid=5010) about Federated learning and Secure Multi-party Computation in [ISC2020](https://isc.360.com).
 
