@@ -8,6 +8,9 @@ permalink: /
 
 # What's new
 
+2020.12
+>We got the second place in Track I of [iDASH2020 secure genome analysis competition](http://www.humangenomeprivacy.org/2020/). 
+
 2020.9
 >Yiping Ma finished her internship with us. Best wishes!
 
