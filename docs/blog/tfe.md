@@ -72,9 +72,8 @@ python3 training_alice.py
 # Extra notes
 
 ## About crypto-producer
-Currently a third-party crypto-producer is needed for complex tasks such as generating beaver triples, which means TFE is a three-party (with honest majority) computation framework. 
+Currently for the open-source version, a third-party crypto-producer is needed for complex tasks such as generating beaver triples, which means TFE is a three-party (with honest majority) computation framework. 
 
-We are making progress on eliminating the crypto-producer for the pure two-party case.
 
 ## Production usage
 TFE is an experimental software and must be hardened before used in production environments.  
