@@ -9,7 +9,7 @@ permalink: /
 # What's new
 
 2020.12
->Paper "Pegasus: bridging polynomial and Non-polynomial evaluations in Homomorphic Encryption" accepted by S&P2021.
+>Paper [Pegasus: bridging polynomial and Non-polynomial evaluations in Homomorphic Encryption](https://eprint.iacr.org/2020/1606) accepted by S&P2021.
 
 >We got the second place in Track I of [iDASH2020 secure genome analysis competition](http://www.humangenomeprivacy.org/2020/). 
 
