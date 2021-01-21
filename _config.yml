@@ -34,7 +34,7 @@ search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2019-2020 Alibaba Group. All rights reserved."
+footer_content: "Copyright &copy; 2019-2021 Alibaba Group. All rights reserved."
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
