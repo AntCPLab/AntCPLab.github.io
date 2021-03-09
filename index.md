@@ -8,6 +8,11 @@ permalink: /
 
 # What's new
 
+2020.2
+>We implemented and open-sourced the BGV scheme on top of Microsoft SEAL library, check [repo](https://github.com/Alibaba-Gemini-Lab/Gemini-SEAL/tree/gemini-bgv) and [news](https://twitter.com/alibaba_cloud/status/1366342454232813571). 
+
+## Year 2020
+
 2020.12
 >Paper [Pegasus: bridging polynomial and Non-polynomial evaluations in Homomorphic Encryption](https://eprint.iacr.org/2020/1606) accepted by S&P2021.
 
