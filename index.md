@@ -8,6 +8,8 @@ permalink: /
 
 # What's new
 
+## Year 2021
+
 2021.2
 >We implemented and open-sourced the BGV scheme on top of Microsoft SEAL library, check [repo](https://github.com/Alibaba-Gemini-Lab/Gemini-SEAL/tree/gemini-bgv) and [news](https://twitter.com/alibaba_cloud/status/1366342454232813571). 
 
@@ -19,8 +21,6 @@ permalink: /
 >We got the second place in Track I of [iDASH2020 secure genome analysis competition](http://www.humangenomeprivacy.org/2020/). 
 
 2020.9
->Yiping Ma finished her internship with us. Best wishes!
-
 >Paper  [Improving Utility and Security of the Shuffler-based Differential Privacy](https://arxiv.org/abs/1908.11515) accepted  by VLDB2021.
 
 >Paper "Faster Secure Multiparty Computation of Adaptive Gradient Descent" accepted by the PPMLP workshop in Conjunction with CCS2020.
@@ -37,9 +37,6 @@ permalink: /
 >Paper "Secure Social Recommendation based on Secret Sharing" accepted by ECAI2020.
 
 >Paper "HomoPAI: A Secure Collaborative Machine Learning Platform based on Homomorphic Encryption" accepted by ICDE2020 demo track. Watch the demo video on [优酷](https://v.youku.com/v_show/id_XNDQ4NDQyNzIwOA==) or [YouTube](https://youtu.be/LIWjsnKuOMk).
-
->Yixuan Fang finished her internship with us. Best wishes!
-
 
 ## Year 2019
 
@@ -58,8 +55,6 @@ permalink: /
 2019.10
 >Short paper [Quantification of the Leakage in Federated Learning](https://arxiv.org/abs/1910.05467) accepted by the Workshop on Federated Learning for Data Privacy and Confidentiality in Conjunction with NeurIPS 2019 (FL-NeurIPS-19). 
 
->Zhaorui Li finished his internship with us. Best wishes!
-
 >Paper [DPSAaS: Multi-Dimensional Data Sharing and Analytics as Services under Local Differential Privacy](http://www.vldb.org/pvldb/vol12/p1862-xu.pdf) accepted by VLDB2019 demo track.
 
 2019.9
@@ -73,8 +68,6 @@ permalink: /
 >Attended USENIX Sec'2019. 
 
 2019.3
->[Chenkai Weng](https://carlweng.github.io/) finished his internship with us. Best wishes!
-
 >Paper [Answering multi-dimensional analytical queries under local differential privacy](https://dl.acm.org/doi/10.1145/3299869.3319891) accepted by SIGMOD2019.
 
 2019.1
