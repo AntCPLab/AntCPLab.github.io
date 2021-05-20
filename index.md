@@ -10,6 +10,9 @@ permalink: /
 
 ## Year 2021
 
+2021.5
+>Paper [When Homomorphic Encryption Marries Secret Sharing](https://arxiv.org/abs/2008.08753) accepted by SIGKDD2021.
+
 2021.2
 >We implemented and open-sourced the BGV scheme on top of Microsoft SEAL library, check [repo](https://github.com/Alibaba-Gemini-Lab/Gemini-SEAL/tree/gemini-bgv) and [news](https://twitter.com/alibaba_cloud/status/1366342454232813571). 
 
