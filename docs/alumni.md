@@ -7,18 +7,19 @@ nav_order: 98
 # Alumni
 
 
-## Interns
-
 2021
-+ Hao Yang
-+ Hongbin Liu 
++ Hao Yang (Now@NUAA)
++ Hongbin Liu (Now@DUKE) 
++ Yijian Liu
  
 2020
-+ Yiping Ma
++ Yiping Ma (Now@UPENN)
 
 2019
-+ Yixuan Fang
-+ Zhaorui Li
++ Qifei Li (Now@OSR)
++ Yixuan Fang (Now@Alibaba)
++ Zhaorui Li (Now@EPFL)
+
 
 2018
-+ [Chenkai Weng](https://carlweng.github.io/)
++ [Chenkai Weng](https://carlweng.github.io/) (Now@Northwestern)
