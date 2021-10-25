@@ -73,7 +73,17 @@ python3 training_alice.py
 
 ## Using ABY3
 
-The above example uses the default protocol of TFE, which is **POND**.   Change the files to the corresponding ones [here](https://github.com/Alibaba-Gemini-Lab/tf-encrypted/tree/master/examples/logistic/aby3) to use **ABY3**.
+The above example uses the default protocol of TFE, which is **POND**.   If we want to use **ABY3**, we have to build from source: 
+
+```shell
+pip3 uninstall tf-encrypted
+git clone https://github.com/tf-encrypted/tf-encrypted.git
+cd tf-encrypted
+pip3 install -e .
+make build   
+```
+
+Then change the files to the corresponding ones [here](https://github.com/Alibaba-Gemini-Lab/tf-encrypted/tree/master/examples/logistic/aby3) and run.
 
 
 ## Production usage
