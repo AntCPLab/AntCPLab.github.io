@@ -71,8 +71,9 @@ python3 training_alice.py
 
 # Extra notes
 
-## About crypto-producer
-Currently for the open-source version, a third-party crypto-producer is needed for complex tasks such as generating beaver triples, which means TFE is a three-party (with honest majority) computation framework. 
+## Using ABY3
+
+The above example uses the default protocol of TFE, which is **POND**.   Change the files to the corresponding ones here https://github.com/Alibaba-Gemini-Lab/tf-encrypted/tree/master/examples/logistic/aby3 to use **ABY3**.
 
 
 ## Production usage
