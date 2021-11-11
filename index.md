@@ -10,6 +10,9 @@ permalink: /
 
 ## Year 2021
 
+2021.11
+>Standard [IEEE Recommended Practice for Secure Multi-Party Computation](https://standards.ieee.org/standard/2842-2021.html) is published! Thanks for everyone contributed in the project.
+
 2021.5
 >Paper [When Homomorphic Encryption Marries Secret Sharing](https://arxiv.org/abs/2008.08753) accepted by SIGKDD2021.
 
