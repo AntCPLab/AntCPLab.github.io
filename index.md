@@ -10,6 +10,9 @@ permalink: /
 
 ## Year 2021
 
+2021.12
+>Paper [More Efficient Secure Matrix Multiplication for Unbalanced Recommender Systems] accepted by IEEE TDSC.
+
 2021.11
 >Standard [IEEE Recommended Practice for Secure Multi-Party Computation](https://standards.ieee.org/standard/2842-2021.html) is published! Thanks for everyone contributed in the project.
 
