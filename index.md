@@ -32,7 +32,7 @@ permalink: /
 2020.9
 >Paper  [Improving Utility and Security of the Shuffler-based Differential Privacy](https://arxiv.org/abs/1908.11515) accepted  by VLDB2021.
 
->Paper "Faster Secure Multiparty Computation of Adaptive Gradient Descent" accepted by the PPMLP workshop in Conjunction with CCS2020.
+>Paper [Faster Secure Multiparty Computation of Adaptive Gradient Descent](https://dl.acm.org/doi/10.1145/3411501.3419427) accepted by the PPMLP workshop in Conjunction with CCS2020.
 
 >Paper [hPRESS: A Hardware-enhanced Proxy Re-encryption Scheme using Secure Enclave](https://ieeexplore.ieee.org/document/9187972) accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).
 
