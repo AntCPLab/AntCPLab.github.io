@@ -15,12 +15,12 @@ We have developed several projects based on TFE (e.g. The solution winning the i
 
 ## The use case: Collaborative fraud detection
 
-Suppose Alice is a bank, Bob is a government. Alice and Bob know many individuals in common, and both parties knows some information about the individuals from different aspects (e.g., Alice knows their credit card bills, while Bob knows their tax information), but only Bob knows wether the individuals have some fraud history or not (denoted by label =1 or 0). Now Bob wants to build a fraud detection model with the help of Alice. Alice is willing to collaborate, but she consider her part of user information sensitive and is not willing to share them directly.
+Suppose Alice is a bank, Bob is a police office. Alice and Bob know many individuals in common, and both parties knows some information about the individuals from different aspects. E.g., Alice knows the individuals' credit card bills, while Bob knows whether the individuals have some fraud history or not (denoted by label =1 or 0). Now Bob wants to build a fraud detection model with the help of Alice. Alice is willing to collaborate, but she consider her part of user information sensitive and is not willing to share them directly.
 
 This problem could be summarized as a how to do secure collaborative machine learning training on a vertically split dataset. Here's a simple walkthrough showing how it could be done efficiently using TFE. 
 
 
-Suppose the dataset contains 7000 samples with 32 features, 16 of which is held by Alice, and the other 16 (and the label) is held by Bob. A random generated example dataset could be found here: [aliceTrainFile.csv](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/aliceTrainFile.csv)  and [bobTrainFileWithLabel.csv](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/bobTrainFileWithLabel.csv). 
+Suppose the dataset contains 7000 samples with 16 features held by Alice, and the label held by Bob. A random generated example could be found [here](https://github.com/Alibaba-Gemini-Lab/tf-encrypted/tree/master/examples/logistic/vertical). 
 
 
 ## Step 1. Prepare three machines and set up environments
@@ -43,20 +43,20 @@ Replace machine:port with your own IP:Port. Make sure the three machines are abl
 
 ```json
 {
-    "alice": "machine1:port1",
-    "bob": "machine2:port2",
-    "crypto-producer": "machine3:port3"
+    "server0": "machine1:port1",
+    "server1": "machine2:port2",
+    "server2": "machine3:port3"
 }
 ```
 
 ## Step 3. Write TFE training code
-We provide an example for Logistic Regression :  [common.py](https://github.com/Alibaba-Gemini-Lab/tf-encrypted/blob/744fe406dfd1c80c08d86e0d83e8e7258d9b9459/examples/logistic/common.py) , [training_alice.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_alice.py) , [training_bob.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_bob.py)  and [training_server.py](https://raw.githubusercontent.com/Alibaba-Gemini-Lab/tf-encrypted/master/examples/logistic/training_server.py). 
+We provide an example for Logistic Regression [here](https://github.com/Alibaba-Gemini-Lab/tf-encrypted/tree/master/examples/logistic/vertical). 
 
 ## Step 4. Copy the files to the same directory
 
 Copy config.json , common.py , training_alice.py , aliceTrainFile.csv to  machine1; 
 
-Copy config.json ,  training_bob.py , bobTrainFileWithLabel.csv to machine2;
+Copy config.json ,  training_bob.py , bobLabel.csv to machine2;
 
 Copy config.json ,  training_server.py to machine3;
 
@@ -83,7 +83,7 @@ pip3 install -e .
 make build   
 ```
 
-Then change the files to the corresponding ones [here](https://github.com/Alibaba-Gemini-Lab/tf-encrypted/tree/master/examples/logistic/aby3) and run.
+Then change training_alice.py to this one [here](https://github.com/Alibaba-Gemini-Lab/tf-encrypted/blob/8359a0872732a9f3550088b2e58f511a7f3af80f/examples/logistic/vertical/training_alice.py) and re-run.
 
 
 ## Production usage
