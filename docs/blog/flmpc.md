@@ -5,16 +5,17 @@ parent: Blogs
 nav_order: 990
 ---
 
-# Different Privacy Preserving Machine Learning (PPML) methods
+# Federated Learning and Secure Multi-party Computation
 
-Although people talked about PPML everywhere, PPML is a term that is not well defined.  Generally it's safe to say that in PPML, people use 
-technologies including  (but not limited to) differential privacy / homomorphic encryption / secure multi-party computation / trusted 
-execution environment to protect the data during training or inference. 
-
-Federated learning (FL) [orginally proposed by Google](https://arxiv.org/abs/1602.05629v1), is one of those PPML technologies. According to the 
-definitions in [wikipedia](https://en.wikipedia.org/wiki/Federated_learning), FL is a machine learning technique that trains a model 
+Federated learning (FL) [orginally proposed by Google](https://arxiv.org/abs/1602.05629v1), is a machine learning technique that trains a model 
 across multiple decentralized edge devices or servers holding local data samples. FL has a design of exchanging parameters instead of 
 exchanging raw data, which provides users with a sense of security, and has made FL one of the most promising PPML techniques.
+
+We introduced Secure Multiparty Computation (MPC) in [our previous blog](https://alibaba-gemini-lab.github.io/docs/blog/pvc/). Briefly speaking, 
+MPC is a cryptographic protocol run by multiple participants. The protocol ensures that nothing else but the final computation result is revealed.
+
+When the application scenario is machine learning training, FL and MPC looks similar: They all aim at training ML model among multiple data owners, without leaking the training data between each other. So what's the differences? This post will try to explain it. Could also visit [here](https://mp.weixin.qq.com/s/OmjQyQqd0YK8JT_QsNrplQ) for a full presentation in Chinese. 
+
 
 # Main idea of FL
 
@@ -57,10 +58,8 @@ We have a short paper [Quantification of the Leakage in Federated Learning](http
 
 # Comparing FL with Secure Multi-party Computation (MPC)
 
-We introduced MPC in [our previous blog](https://alibaba-gemini-lab.github.io/docs/blog/pvc/). Briefly speaking, 
-MPC is a cryptographic definition which reveals no intermediate information during the whole computation, all it reveals is the final 
-result. In contrast, FL is a machine learning definition that iteratively collects and updates the model, which is revealed in each 
-iteration.
+Like other cryptographic protocols, MPC has a strict definition of its security guarantee, which could be formalized by [Real-Ideal proofs](https://eprint.iacr.org/2016/046.pdf). The proof indicates that an attacker could not gain any extra advantage from the information he received in an MPC protocol. In contrast, FL is a machine learning definition that iteratively collects and updates the model, which could be revealed in each 
+iteration. The security guarantee of FL is way harder to formalize. 
 
 MPC enjoys a much higher security level, at the price of expensive cryptographic operations, which often results in higher computation 
 and communication cost. FL loosen the security requirements, enabling more clear and efficient implementation. 
