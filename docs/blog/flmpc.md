@@ -20,10 +20,10 @@ When the application scenario is machine learning training, FL and MPC looks sim
 # Main idea of FL
 
 The main idea of FL comes from the design of parameter server which aims to solve the distributed training problem. The following figure
-picked from [Li et.al.](https://www.groundai.com/project/federated-learning-challenges-methods-and-future-directions/1)
+picked from [Li et.al.](https://arxiv.org/abs/1908.07873)
 could roughly summarize the FL architecture:
 
-![](https://storage.googleapis.com/groundai-web-prod/media/users/user_237920/project_386956/images/x10.png)
+![image](https://user-images.githubusercontent.com/35251608/152913569-932a0593-9e79-4dcc-b355-03bd5fba2cca.png)
 
 1.	The coordinator sends the initial model $W$ to all the participants;
 2.	The $i^{th}$ participant trains locally using $W$ and obtains an update $\Delta W_i$;
