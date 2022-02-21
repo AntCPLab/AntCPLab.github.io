@@ -11,7 +11,7 @@ permalink: /
 ## Year 2022
 
 2022.2
->Paper [Cheetah:Lean and Fast Secure Two-Party Deep Neural Network Inference](https://eprint.iacr.org/2022/207) accepted by Usenix'Sec 2022.
+>Paper [Cheetah:Lean and Fast Secure Two-Party Deep Neural Network Inference](https://eprint.iacr.org/2022/207) accepted by USENIX'Sec 2022.
 
 2022.1
 >We found that the [RIAC (Random iterative affine cipher)](https://developpaper.com/tencents-aegis-federal-computing-platform-takes-you-across-the-mountains-of-data-cooperation/) used in several federated learning frameworks is broken. Please **immediately** stop using RIAC and check previous RIAC ciphertexts if there's any. We have contacted the [affected community](https://mp.weixin.qq.com/s/BoW184Uhf7iF_uZlMZhnMg) and will publish the exploit details once we are allowed.
