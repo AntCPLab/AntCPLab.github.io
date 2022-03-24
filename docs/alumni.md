@@ -6,20 +6,22 @@ nav_order: 98
 
 # Alumni
 
+2022
++ Yun Li
 
 2021
-+ Hao Yang (Now@NUAA)
-+ Hongbin Liu (Now@DUKE) 
++ Hao Yang (-> NUAA)
++ [Hongbin Liu](https://tdczlhb.github.io/) (-> DUKE) 
 + Yijian Liu
  
 2020
-+ Yiping Ma (Now@UPENN)
++ [Yiping Ma](https://www.seas.upenn.edu/~yipingma/) (-> UPENN)
 
 2019
-+ Qifei Li (Now@OSR)
-+ Yixuan Fang (Now@Alibaba)
-+ Zhaorui Li (Now@EPFL)
++ Qifei Li (-> OSR)
++ Yixuan Fang (-> Dbappsecurity)
++ Zhaorui Li (-> EPFL)
 
 
 2018
-+ [Chenkai Weng](https://carlweng.github.io/) (Now@Northwestern)
++ [Chenkai Weng](https://carlweng.github.io/) (-> Northwestern)
