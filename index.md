@@ -10,6 +10,9 @@ permalink: /
 
 ## Year 2022
 
+2022.8
+>We just deliver a major update to [TF Encrypted](https://github.com/tf-encrypted/tf-encrypted),  including benchmarks on several PPML operations such as NN training and inference. Please check the new [performance section](https://github.com/tf-encrypted/tf-encrypted/blob/master/README.md#performance).
+
 2022.3
 >The [Microsoft SEAL](https://github.com/microsoft/SEAL) homomorphic encryption library released version 4.0,  including the [BGV implementation](https://github.com/microsoft/SEAL/pull/283) we contributed.
 
