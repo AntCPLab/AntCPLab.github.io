@@ -8,6 +8,10 @@ permalink: /
 
 # What's new
 
+## Year 2023
+
+We have moved to [Ant Group](https://www.antgroup.com/)! Check the website of [Ant CP Lab](https://ant-cp-lab.github.io/) for updates.
+
 ## Year 2022
 
 2022.8
