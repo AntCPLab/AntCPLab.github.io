@@ -10,7 +10,7 @@ permalink: /
 
 ## Year 2023
 
-We have moved to [Ant Group](https://www.antgroup.com/en)! Check the website of [Ant CP Lab](https://ant-cp-lab.github.io/) for updates.
+We have moved to [Ant Group](https://www.antgroup.com/en)! Our updates after 2023 will be put on **Ant CP Lab** (Website under construction).
 
 ## Year 2022
 
