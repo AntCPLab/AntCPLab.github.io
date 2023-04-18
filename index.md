@@ -2,7 +2,7 @@
 layout: default
 title: What's new
 nav_order: 1
-description: "Alibaba Gemini Lab"
+description: "Ant CP Lab"
 permalink: /
 ---
 
@@ -10,7 +10,17 @@ permalink: /
 
 ## Year 2023
 
-We have moved to [Ant Group](https://www.antgroup.com/en)! Our updates after 2023 will be put on **Ant CP Lab** (Website under construction).
+### 2023.4
+
+Paper [CHAM：A Customized Homomorphic Encryption Accelerator for Fast Matrix-Vector Product] accepted by DAC 2023.
+
+### 2023.2
+
+Paper [Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree](https://eprint.iacr.org/2023/527) accepted by USENIX'Sec 2023.
+
+### 2023.1
+
+We have moved to [Ant Group](https://www.antgroup.com/en)! 
 
 ## Year 2022
 
