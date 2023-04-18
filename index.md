@@ -8,7 +8,7 @@ permalink: /
 
 # What's new
 
-## Year 2023
+## Works at Ant CP Lab
 
 ### 2023.4
 
@@ -22,7 +22,7 @@ Paper [Squirrel: A Scalable Secure Two-Party Computation Framework for Training 
 
 **We have moved to** [**Ant Group**](https://www.antgroup.com/en)! 
 
-## Year 2022
+## Works at Alibaba Gemini Lab
 
 2022.8
 >We just deliver a major update to [TF Encrypted](https://github.com/tf-encrypted/tf-encrypted),  including benchmarks on several PPML operations such as NN training and inference. Please check the new [performance section](https://github.com/tf-encrypted/tf-encrypted/blob/master/README.md#performance).
@@ -36,8 +36,6 @@ Paper [Squirrel: A Scalable Secure Two-Party Computation Framework for Training 
 2022.1
 >We found that the [RIAC (Random iterative affine cipher)](https://developpaper.com/tencents-aegis-federal-computing-platform-takes-you-across-the-mountains-of-data-cooperation/) used in several federated learning frameworks is broken. Please **immediately** stop using RIAC and check previous RIAC ciphertexts if there's any. We have contacted the [affected community](https://mp.weixin.qq.com/s/BoW184Uhf7iF_uZlMZhnMg) and will publish the exploit details once we are allowed.
 
-## Year 2021
-
 2021.12
 >Paper [More Efficient Secure Matrix Multiplication for Unbalanced Recommender Systems](https://www.computer.org/csdl/journal/tq/5555/01/09665288/1zJiScWQJ1e) accepted by IEEE TDSC.
 
@@ -46,8 +44,6 @@ Paper [Squirrel: A Scalable Secure Two-Party Computation Framework for Training 
 
 2021.5
 >Paper [When Homomorphic Encryption Marries Secret Sharing](https://arxiv.org/abs/2008.08753) accepted by SIGKDD2021.
-
-## Year 2020
 
 2020.12
 >Paper [Pegasus: bridging polynomial and Non-polynomial evaluations in Homomorphic Encryption](https://eprint.iacr.org/2020/1606) accepted by S&P2021.
@@ -71,8 +67,6 @@ Paper [Squirrel: A Scalable Secure Two-Party Computation Framework for Training 
 >Paper "Secure Social Recommendation based on Secret Sharing" accepted by ECAI2020.
 
 >Paper "HomoPAI: A Secure Collaborative Machine Learning Platform based on Homomorphic Encryption" accepted by ICDE2020 demo track. Watch the demo video on [优酷](https://v.youku.com/v_show/id_XNDQ4NDQyNzIwOA==) or [YouTube](https://youtu.be/LIWjsnKuOMk).
-
-## Year 2019
 
 2019.12
 >We are named the first place in Track IV of [iDASH2019 secure genome analysis competition](http://www.humangenomeprivacy.org/2019/). 
@@ -108,8 +102,6 @@ Paper [Squirrel: A Scalable Secure Two-Party Computation Framework for Training 
 >Paper [Covert Security with Public Verifiability:
 Faster, Leaner, and Simpler](https://eprint.iacr.org/2018/1108.pdf) accepted by EUROCRYPT2019.
 
-## Year 2018
-
 2018.11
 >Invited as panelist to [2018 Westlake International Forum on Cyber Security Research](https://icsr.zju.edu.cn/xihu2018/en/index.htm) .
 
@@ -120,8 +112,6 @@ Faster, Leaner, and Simpler](https://eprint.iacr.org/2018/1108.pdf) accepted by 
 >Attended [TPMPC2018](https://www.multipartycomputation.com/tpmpc-2018).
 
 >Witnessed the [inaugural ceremony](https://www.zju.edu.cn/english/2018/0610/c19573a816865/page.htm) of the AZFT Cyberspace Security Lab.
-
-## Year 2017
 
 2017.11
 >Attended ACM CCS 2017.
