@@ -12,7 +12,7 @@ nav_order: 98
 2021
 + Hao Yang (-> NUAA)
 + [Hongbin Liu](https://tdczlhb.github.io/) (-> DUKE) 
-+ Yijian Liu
++ Yijian Liu (-> IIE, CAS)
  
 2020
 + [Yiping Ma](https://www.seas.upenn.edu/~yipingma/) (-> UPENN)
