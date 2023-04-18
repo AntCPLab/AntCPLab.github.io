@@ -20,7 +20,7 @@ Paper [Squirrel: A Scalable Secure Two-Party Computation Framework for Training 
 
 ### 2023.1
 
-We have moved to [Ant Group](https://www.antgroup.com/en)! 
+**We have moved to** [**Ant Group**](https://www.antgroup.com/en)! 
 
 ## Year 2022
 
