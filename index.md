@@ -34,7 +34,7 @@ Paper [Squirrel: A Scalable Secure Two-Party Computation Framework for Training 
 >Paper [Cheetah:Lean and Fast Secure Two-Party Deep Neural Network Inference](https://eprint.iacr.org/2022/207) accepted by USENIX'Sec 2022.
 
 2022.1
->We found that the [RIAC (Random iterative affine cipher)](https://developpaper.com/tencents-aegis-federal-computing-platform-takes-you-across-the-mountains-of-data-cooperation/) used in several federated learning frameworks is broken. Please **immediately** stop using RIAC and check previous RIAC ciphertexts if there's any. We have contacted the [affected community](https://mp.weixin.qq.com/s/BoW184Uhf7iF_uZlMZhnMg) and will publish the exploit details once we are allowed.
+>We found that the [RIAC (Random iterative affine cipher)](https://fate.readthedocs.io/en/develop-1.5/_build_temp/python/federatedml/secureprotol/README.html#iterativeaffine-homomorphic-encryption) used in several federated learning frameworks is broken. Please **immediately** stop using RIAC and check previous RIAC ciphertexts if there's any. We have contacted the [affected community](https://mp.weixin.qq.com/s/BoW184Uhf7iF_uZlMZhnMg) and will publish the exploit details once we are allowed.
 
 2021.12
 >Paper [More Efficient Secure Matrix Multiplication for Unbalanced Recommender Systems](https://www.computer.org/csdl/journal/tq/5555/01/09665288/1zJiScWQJ1e) accepted by IEEE TDSC.
