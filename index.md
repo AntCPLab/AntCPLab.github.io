@@ -8,7 +8,9 @@ permalink: /
 
 # What's new
 
+### 2023.5
 
+Paper [Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference] accepted by USENIX'Sec 2023.
 
 ### 2023.4
 
