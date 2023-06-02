@@ -10,17 +10,22 @@ permalink: /
 
 ### 2023.5
 
-- Paper [Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference] accepted by USENIX'Sec 2023.
+- Paper [Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference] was accepted by USENIX'Sec 2023.
+- Attended [44th IEEE Symposium on Security and Privacy](https://sp2023.ieee-security.org/index.html) in San Francisco.
 
 ### 2023.4
 
-- Paper [CHAM：A Customized Homomorphic Encryption Accelerator for Fast Matrix-Vector Product] accepted by DAC 2023.
+- Paper [CHAM：A Customized Homomorphic Encryption Accelerator for Fast Matrix-Vector Product] was accepted by DAC 2023.
 
 - [An Attack on RIAC Homomorphic Encryption Algorithm](http://www.jcr.cacrnet.org.cn/CN/10.13868/j.cnki.jcr.000604) was published in Journal of Cryptologic Research (in Chinese). It describes how we broke the [RIAC (Random iterative affine cipher)](https://fate.readthedocs.io/en/develop-1.5/_build_temp/python/federatedml/secureprotol/README.html#iterativeaffine-homomorphic-encryption) in 2022.1.
 
+### 2023.3
+
+- Gave a talk at the [6th HomomorphicEncryption.org Standards Meeting](https://homomorphicencryption.org/6th-homomorphicencryption-org-standards-meeting/) in Seoul, South Korea.
+
 ### 2023.2
 
-- Paper [Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree](https://eprint.iacr.org/2023/527) accepted by USENIX'Sec 2023.
+- Paper [Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree](https://eprint.iacr.org/2023/527) was accepted by USENIX'Sec 2023.
 
 ### 2023.1
 
