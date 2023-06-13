@@ -10,7 +10,7 @@ permalink: /
 
 ### 2023.5
 
-- Paper [Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference] was accepted by USENIX'Sec 2023.
+- Paper "Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference" [[paper]](https://eprint.iacr.org/2023/909) [[code]](https://github.com/AntCPLab/malicious_3pc_binary) was accepted by USENIX'Sec 2023. 
 - Attended [44th IEEE Symposium on Security and Privacy](https://sp2023.ieee-security.org/index.html) in San Francisco.
 
 ### 2023.4
