@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Working with us
+title: Work with us
 nav_order: 100
 ---
 
