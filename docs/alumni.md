@@ -6,6 +6,9 @@ nav_order: 98
 
 # Alumni
 
+2023
++ [Ye Dong](https://ye-d.github.io/)
+  
 2022
 + Yun Li
 + Xiaoli Zhang (-> Zhejiang University of Technology)
