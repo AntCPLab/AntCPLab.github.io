@@ -8,6 +8,11 @@ permalink: /
 
 # What's new
 
+
+### 2023.8
+
+- Paper "Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA"  was accepted by USENIX'Sec 2024.
+
 ### 2023.5
 
 - Paper "Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference" [[paper]](https://eprint.iacr.org/2023/909) [[code]](https://github.com/AntCPLab/malicious_3pc_binary) was accepted by USENIX'Sec 2023. 
