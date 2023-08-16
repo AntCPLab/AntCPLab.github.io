@@ -11,6 +11,8 @@ permalink: /
 
 ### 2023.8
 
+- Attended [32nd USENIX Security Symposium](https://www.usenix.org/conference/usenixsecurity23/) in Anaheim. Pictures of our colleagues presenting: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-1.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-2.JPG).
+
 - Paper "Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA"  was accepted by USENIX'Sec 2024.
 
 ### 2023.5
