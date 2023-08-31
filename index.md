@@ -22,7 +22,7 @@ permalink: /
 
 ### 2023.4
 
-- Paper [CHAM：A Customized Homomorphic Encryption Accelerator for Fast Matrix-Vector Product] was accepted by DAC 2023.
+- Paper "CHAM：A Customized Homomorphic Encryption Accelerator for Fast Matrix-Vector Product"[[paper]](https://github.com/alibaba-damo-academy/damo_ctl_cham/blob/main/DAC_2023_CHAM.pdf)[[code]](https://github.com/alibaba-damo-academy/damo_ctl_cham) was accepted by DAC 2023.
 
 - [An Attack on RIAC Homomorphic Encryption Algorithm](http://www.jcr.cacrnet.org.cn/CN/10.13868/j.cnki.jcr.000604) was published in Journal of Cryptologic Research (in Chinese). It describes how we broke the [RIAC (Random iterative affine cipher)](https://fate.readthedocs.io/en/develop-1.5/_build_temp/python/federatedml/secureprotol/README.html#iterativeaffine-homomorphic-encryption) in 2022.1.
 
