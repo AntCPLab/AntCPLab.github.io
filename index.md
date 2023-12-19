@@ -10,7 +10,7 @@ permalink: /
 
 ### 2023.12
 
-- Attended ACM CCS 2024 in Copenhagen as a platinum sponsor. [Picture](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/CCS%202023.JPG) of our colleagues at the table of Ant Research.
+- Attended [ACM CCS 2023](https://www.sigsac.org/ccs/CCS2023/index.html) in Copenhagen as a platinum sponsor. [Picture](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/CCS%202023.JPG) of our colleagues at the table of Ant Research.
 
 ### 2023.8
 
