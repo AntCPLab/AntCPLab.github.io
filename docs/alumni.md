@@ -7,8 +7,10 @@ nav_order: 98
 # Alumni
 
 2023
-+ [Ye Dong](https://ye-d.github.io/)
-  
++ [Ye Dong](https://ye-d.github.io/) (-> SUTD)
++ Song Zhu (-> Bytedance)
++ Jianlin Jiang (-> Tiktok)
+    
 2022
 + Yun Li
 + Xiaoli Zhang (-> Zhejiang University of Technology)
