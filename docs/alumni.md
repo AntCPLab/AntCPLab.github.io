@@ -6,6 +6,9 @@ nav_order: 98
 
 # Alumni
 
+2024
++ [Wen-jie Lu](https://fionser.github.io/) (-> Zhejiang University)
+  
 2023
 + [Ye Dong](https://ye-d.github.io/) (-> SUTD)
 + Song Zhu (-> Bytedance)
