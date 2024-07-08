@@ -8,7 +8,10 @@ permalink: /
 
 # What's new
 
+### 2024.7
 
+- Paper "BumbleBee: Secure Two-party Inference Framework for Large Transformers" [[paper]](https://eprint.iacr.org/2023/1678) [[code]](https://github.com/AntCPLab/OpenBumbleBee) was accepted by NDSS 2025.
+  
 ### 2024.5
 
 - Attended [45th IEEE Symposium on Security and Privacy](https://sp2024.ieee-security.org/index.html) in San Francisco.  Pictures of our colleagues presenting: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP24.jpg). 
