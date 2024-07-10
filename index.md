@@ -24,7 +24,7 @@ permalink: /
 
 - Attended [32nd USENIX Security Symposium](https://www.usenix.org/conference/usenixsecurity23/) in Anaheim. Pictures of our colleagues presenting: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-1.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-2.JPG).
 
-- Paper "Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA"  was accepted by USENIX'Sec 2024.
+- Paper [Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA](https://www.usenix.org/system/files/sec23winter-prepub-4-ren.pdf)  was accepted by USENIX'Sec 2024.
 
 ### 2023.5
 
@@ -43,7 +43,7 @@ permalink: /
 
 ### 2023.2
 
-- Paper [Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree](https://eprint.iacr.org/2023/527) was accepted by USENIX'Sec 2023.
+- Paper "Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree" [[paper]](https://eprint.iacr.org/2023/527) [[code]](https://github.com/secretflow/spu/tree/main/experimental/squirrel) was accepted by USENIX'Sec 2023.
 
 ### 2023.1
 
