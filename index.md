@@ -11,7 +11,7 @@ permalink: /
 ### 2024.8
   
 - Paper "Coral: Maliciously Secure Computation Framework for Packed and Mixed Circuits" [[paper]](https://eprint.iacr.org/2024/1372) [[code]](https://github.com/AntCPLab/OpenCoral) and "Sublinear Distributed Product Checks on Replicated Secret-Shared Data over  without Ring Extensions" [[paper]](https://eprint.iacr.org/2024/700) [[code]](https://github.com/AntCPLab/malicious_3pc_arithmetic) are accepted by ACM CCS 2024.
-- Attended 33rd USENIX Security Symposium in Philadelphia as a silver sponsor.  Pictures of our colleagues at the sponsor's desk: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/USENIX24.jpg).
+- Attended [USENIX Security 2024](https://www.usenix.org/conference/usenixsecurity24/) in Philadelphia as a silver sponsor.  Pictures of our colleagues at the sponsor's desk: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/USENIX24.jpg).
   
 ### 2024.7
 
@@ -19,7 +19,7 @@ permalink: /
   
 ### 2024.5
 
-- Attended [45th IEEE Symposium on Security and Privacy](https://sp2024.ieee-security.org/index.html) in San Francisco.  Pictures of our colleagues presenting: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP24.jpg). 
+- Attended [SP 2024](https://sp2024.ieee-security.org/index.html) in San Francisco.  Pictures of our colleagues presenting: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP24.jpg). 
   
 ### 2023.12
 
@@ -27,14 +27,14 @@ permalink: /
 
 ### 2023.8
 
-- Attended [32nd USENIX Security Symposium](https://www.usenix.org/conference/usenixsecurity23/) in Anaheim. Pictures of our colleagues presenting: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-1.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-2.JPG).
+- Attended [USENIX Security 2023](https://www.usenix.org/conference/usenixsecurity23/) in Anaheim. Pictures of our colleagues presenting: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-1.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-2.JPG).
 
-- Paper [Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA](https://www.usenix.org/system/files/sec23winter-prepub-4-ren.pdf)  was accepted by USENIX'Sec 2024.
+- Paper [Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA](https://www.usenix.org/system/files/sec23winter-prepub-4-ren.pdf)  was accepted by USENIX Security 2024.
 
 ### 2023.5
 
-- Paper "Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference" [[paper]](https://eprint.iacr.org/2023/909) [[code]](https://github.com/AntCPLab/malicious_3pc_binary) was accepted by USENIX'Sec 2023. 
-- Attended [44th IEEE Symposium on Security and Privacy](https://sp2023.ieee-security.org/index.html) in San Francisco.
+- Paper "Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference" [[paper]](https://eprint.iacr.org/2023/909) [[code]](https://github.com/AntCPLab/malicious_3pc_binary) was accepted by USENIX Security 2023. 
+- Attended [SP 2023](https://sp2023.ieee-security.org/index.html) in San Francisco.
 
 ### 2023.4
 
@@ -48,7 +48,7 @@ permalink: /
 
 ### 2023.2
 
-- Paper "Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree" [[paper]](https://eprint.iacr.org/2023/527) [[code]](https://github.com/secretflow/spu/tree/main/experimental/squirrel) was accepted by USENIX'Sec 2023.
+- Paper "Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree" [[paper]](https://eprint.iacr.org/2023/527) [[code]](https://github.com/secretflow/spu/tree/main/experimental/squirrel) was accepted by USENIX Security 2023.
 
 ### 2023.1
 
