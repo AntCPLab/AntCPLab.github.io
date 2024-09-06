@@ -9,8 +9,9 @@ permalink: /
 # What's new
 
 ### 2024.8
-
+  
 - Paper "Coral: Maliciously Secure Computation Framework for Packed and Mixed Circuits" [[paper]](https://eprint.iacr.org/2024/1372) [[code]](https://github.com/AntCPLab/OpenCoral) and "Sublinear Distributed Product Checks on Replicated Secret-Shared Data over  without Ring Extensions" [[paper]](https://eprint.iacr.org/2024/700) [[code]](https://github.com/AntCPLab/malicious_3pc_arithmetic) are accepted by ACM CCS 2024.
+- Attended 33rd USENIX Security Symposium in Philadelphia as a silver sponsor.  Pictures of our colleagues at the sponsor's desk: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/USENIX24.jpg).
   
 ### 2024.7
 
