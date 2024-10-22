@@ -8,6 +8,9 @@ permalink: /
 
 # What's new
 
+### 2024.10
+- Attended [ACM CCS 2024](https://www.sigsac.org/ccs/CCS2024/) in Salt Lake City.  Pictures of our colleagues presenting: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/CCS2024.jpg). 
+
 ### 2024.8
   
 - Paper "Coral: Maliciously Secure Computation Framework for Packed and Mixed Circuits" [[paper]](https://eprint.iacr.org/2024/1372) [[code]](https://github.com/AntCPLab/OpenCoral) accepted by ACM CCS 2024.
