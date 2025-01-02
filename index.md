@@ -9,7 +9,7 @@ permalink: /
 # What's new
 
 ### 2025.1
-Cheng Hong  serves as a PC member of ACM CCS 2025.
+- Cheng Hong  serves as a PC member of ACM CCS 2025.
 
 ### 2024.11
 - Attended ChinaCrypt 2024 in Hangzhou.  Pictures of our colleagues presenting: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/CHINACRYPT2024.jpg).
@@ -30,7 +30,10 @@ Cheng Hong  serves as a PC member of ACM CCS 2025.
 ### 2024.5
 
 - Attended [SP 2024](https://sp2024.ieee-security.org/index.html) in San Francisco.  Pictures of our colleagues presenting: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP24.jpg). 
-  
+
+### 2024.1
+- Cheng Hong  serves as a PC member of PKC 2024.
+
 ### 2023.12
 
 - Attended [ACM CCS 2023](https://www.sigsac.org/ccs/CCS2023/index.html) in Copenhagen as a platinum sponsor. [Picture](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/CCS%202023.JPG) of our colleagues at the table of Ant Research.
