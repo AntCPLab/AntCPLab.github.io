@@ -8,6 +8,9 @@ permalink: /
 
 # What's new
 
+### 2025.1
+Cheng Hong  serves as a PC member of ACM CCS 2025.
+
 ### 2024.11
 - Attended ChinaCrypt 2024 in Hangzhou.  Pictures of our colleagues presenting: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/CHINACRYPT2024.jpg).
   
