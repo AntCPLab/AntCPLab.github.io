@@ -8,6 +8,13 @@ permalink: /
 
 # What's new
 
+### 2025.3
+- Paper "ZHE: Efficient Zero-Knowledge Proofs for HE Evaluations" was accepted by S&P 2025.
+- Paper "HyperPianist: Pianist with Linear-Time Prover and Logarithmic Communication Cost" was accepted by S&P 2025.
+  
+### 2025.2
+- Paper "GraphAce: Secure Two-Party Graph Analysis Achieving Communication Efficiency" was accepted by USENIX Security 2025.
+
 ### 2025.1
 - Cheng Hong  serves as a PC member of ACM CCS 2025.
 
