@@ -8,12 +8,17 @@ permalink: /
 
 # What's new
 
+### 2025.4
+- Zhicong Huang  serves as a PC member of ACM CCS 2025.
+- Paper "SoK: FHE-Friendly Symmetric Ciphers and Transciphering" [[paper]](https://eprint.iacr.org/2025/669) [[code]](https://github.com/AntCPLab/awesome-transciphering)  accepted by CHES 2025.
+  
 ### 2025.3
 - Paper "ZHE: Efficient Zero-Knowledge Proofs for HE Evaluations" was accepted by S&P 2025.
-- Paper "HyperPianist: Pianist with Linear-Time Prover and Logarithmic Communication Cost" was accepted by S&P 2025.
+- Paper "HyperPianist: Pianist with Linear-Time Prover and Logarithmic Communication Cost" [[paper]](https://eprint.iacr.org/2024/1273) [[code]](https://github.com/AntCPLab/HyperPianist)  was accepted by S&P 2025.
   
 ### 2025.2
 - Paper "GraphAce: Secure Two-Party Graph Analysis Achieving Communication Efficiency" was accepted by USENIX Security 2025.
+- Attended NDSS 2025 in San Diego.
 
 ### 2025.1
 - Cheng Hong  serves as a PC member of ACM CCS 2025.
