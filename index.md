@@ -13,11 +13,11 @@ permalink: /
 - Paper "SoK: FHE-Friendly Symmetric Ciphers and Transciphering" [[paper]](https://eprint.iacr.org/2025/669) [[code]](https://github.com/AntCPLab/awesome-transciphering)  accepted by CHES 2025.
   
 ### 2025.3
-- Paper "ZHE: Efficient Zero-Knowledge Proofs for HE Evaluations" was accepted by S&P 2025.
-- Paper "HyperPianist: Pianist with Linear-Time Prover and Logarithmic Communication Cost" [[paper]](https://eprint.iacr.org/2024/1273) [[code]](https://github.com/AntCPLab/HyperPianist)  was accepted by S&P 2025.
+- Paper ["ZHE: Efficient Zero-Knowledge Proofs for HE Evaluations"](https://eprint.iacr.org/2025/770)  accepted by S&P 2025.
+- Paper "HyperPianist: Pianist with Linear-Time Prover and Logarithmic Communication Cost" [[paper]](https://eprint.iacr.org/2024/1273) [[code]](https://github.com/AntCPLab/HyperPianist)   accepted by S&P 2025.
   
 ### 2025.2
-- Paper "GraphAce: Secure Two-Party Graph Analysis Achieving Communication Efficiency" was accepted by USENIX Security 2025.
+- Paper "GraphAce: Secure Two-Party Graph Analysis Achieving Communication Efficiency"  accepted by USENIX Security 2025.
 - Attended NDSS 2025 in San Diego.
 
 ### 2025.1
@@ -37,7 +37,7 @@ permalink: /
   
 ### 2024.7
 
-- Paper "BumbleBee: Secure Two-party Inference Framework for Large Transformers" [[paper]](https://eprint.iacr.org/2023/1678) [[code]](https://github.com/AntCPLab/OpenBumbleBee) was accepted by NDSS 2025.
+- Paper "BumbleBee: Secure Two-party Inference Framework for Large Transformers" [[paper]](https://eprint.iacr.org/2023/1678) [[code]](https://github.com/AntCPLab/OpenBumbleBee)  accepted by NDSS 2025.
   
 ### 2024.5
 
@@ -54,16 +54,16 @@ permalink: /
 
 - Attended [USENIX Security 2023](https://www.usenix.org/conference/usenixsecurity23/) in Anaheim. Pictures of our colleagues presenting: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-1.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-2.JPG).
 
-- Paper [Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA](https://www.usenix.org/system/files/sec23winter-prepub-4-ren.pdf)  was accepted by USENIX Security 2024.
+- Paper [Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA](https://www.usenix.org/system/files/sec23winter-prepub-4-ren.pdf)   accepted by USENIX Security 2024.
 
 ### 2023.5
 
-- Paper "Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference" [[paper]](https://eprint.iacr.org/2023/909) [[code]](https://github.com/AntCPLab/malicious_3pc_binary) was accepted by USENIX Security 2023. 
+- Paper "Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference" [[paper]](https://eprint.iacr.org/2023/909) [[code]](https://github.com/AntCPLab/malicious_3pc_binary)  accepted by USENIX Security 2023. 
 - Attended [SP 2023](https://sp2023.ieee-security.org/index.html) in San Francisco.
 
 ### 2023.4
 
-- Paper "CHAM：A Customized Homomorphic Encryption Accelerator for Fast Matrix-Vector Product"[[paper]](https://github.com/alibaba-damo-academy/damo_ctl_cham/blob/main/DAC_2023_CHAM.pdf)[[code]](https://github.com/alibaba-damo-academy/damo_ctl_cham) was accepted by DAC 2023.
+- Paper "CHAM：A Customized Homomorphic Encryption Accelerator for Fast Matrix-Vector Product"[[paper]](https://github.com/alibaba-damo-academy/damo_ctl_cham/blob/main/DAC_2023_CHAM.pdf)[[code]](https://github.com/alibaba-damo-academy/damo_ctl_cham)  accepted by DAC 2023.
 
 - [An Attack on RIAC Homomorphic Encryption Algorithm](http://www.jcr.cacrnet.org.cn/CN/10.13868/j.cnki.jcr.000604) was published in Journal of Cryptologic Research (in Chinese). It describes how we broke the [RIAC (Random iterative affine cipher)](https://fate.readthedocs.io/en/develop-1.5/_build_temp/python/federatedml/secureprotol/README.html#iterativeaffine-homomorphic-encryption) in 2022.1.
 
@@ -73,7 +73,7 @@ permalink: /
 
 ### 2023.2
 
-- Paper "Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree" [[paper]](https://eprint.iacr.org/2023/527) [[code]](https://github.com/secretflow/spu/tree/main/experimental/squirrel) was accepted by USENIX Security 2023.
+- Paper "Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree" [[paper]](https://eprint.iacr.org/2023/527) [[code]](https://github.com/secretflow/spu/tree/main/experimental/squirrel)  accepted by USENIX Security 2023.
 
 ### 2023.1
 
