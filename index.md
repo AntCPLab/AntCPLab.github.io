@@ -8,6 +8,9 @@ permalink: /
 
 # What's new
 
+### 2025.5
+- Attended SP 2025 in San Francisco.  Pictures of our colleague presenting:  [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP25-1.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP25-2.JPG).
+  
 ### 2025.4
 - Zhicong Huang  serves as a PC member of ACM CCS 2025.
 - Paper "SoK: FHE-Friendly Symmetric Ciphers and Transciphering" [[paper]](https://eprint.iacr.org/2025/669) [[code]](https://github.com/AntCPLab/awesome-transciphering)  accepted by CHES 2025.
