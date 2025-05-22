@@ -1,3 +1,15 @@
+name: Deploy Jekyll with GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -5,16 +17,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Ruby (with compatible RubyGems)
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.2"  # Use a Ruby version with RubyGems >=3.3.22
-          bundler: true
-
-      - name: Update RubyGems
-        run: |
-          gem update --system 3.3.22
-          gem --version  # Verify update
+          ruby-version: "3.0.4"  # Use a Ruby version compatible with jekyll/builder
 
       - name: Install dependencies
         run: |
