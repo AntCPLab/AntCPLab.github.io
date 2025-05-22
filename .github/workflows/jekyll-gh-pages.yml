@@ -17,10 +17,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Ruby (with compatible RubyGems)
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.0.4"  # Use a Ruby version compatible with jekyll
+          ruby-version: "3.0.4"
 
       - name: Install dependencies
         run: |
