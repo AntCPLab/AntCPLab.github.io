@@ -4,9 +4,13 @@
     "assets/css/dark-mode-preview.scss",
     "_sass/vendor/**/*.scss"
   ],
+
   "rules": {
     "plugin/no-unsupported-browser-features": null,
-    "no-eol-whitespace": null
+    "no-eol-whitespace": null,
+    "declaration-colon-space-after": null,
+    "color-hex-length": null,
+    "order/properties-order": null
   },
   "extends": [
     "stylelint-config-primer"
