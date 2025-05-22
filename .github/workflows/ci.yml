@@ -1,35 +1,45 @@
-on: [push]
-
 name: CI
 
-jobs:
+on: [push]
 
+jobs:
   jekyll:
     name: Build Jekyll site
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
 
-    - uses: actions/checkout@master
+      - name: Set up Ruby (with compatible RubyGems)
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1.4"  # Use a Ruby version with RubyGems >= 3.3.22
 
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run --rm \
-        --volume="${{ github.workspace }}:/srv/jekyll" \
-        jekyll/builder:3.8.5 /bin/bash -c "chmod 777 /srv/jekyll && jekyll build"
-        
+      - name: Update RubyGems
+        run: |
+          gem update --system 3.3.22
+          gem --version  # Verify the update
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build Jekyll site
+        run: |
+          bundle exec jekyll build
+
   css:
     name: Stylelint
     runs-on: ubuntu-latest
     steps:
-    
-    - uses: actions/checkout@master
+      - uses: actions/checkout@v4
 
-    - name: Use Node.js 10.x
-      uses: actions/setup-node@v1
-      with:
-        version: 10.x
+      - name: Use Node.js 10.x
+        uses: actions/setup-node@v1
+        with:
+          version: 10.x
 
-    - name: npm install, build, and test
-      run: |
-        npm install
-        npm test
+      - name: npm install, build, and test
+        run: |
+          npm install
+          npm test
