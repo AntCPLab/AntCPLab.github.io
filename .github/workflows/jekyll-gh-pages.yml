@@ -17,10 +17,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Ruby
+      - name: Set up Ruby (with compatible RubyGems)
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.0.4"
+          ruby-version: "3.1.4"  # Use a Ruby version with RubyGems >= 3.3.22
+
+      - name: Update RubyGems
+        run: |
+          gem update --system 3.3.22  # Explicitly update RubyGems
+          gem --version  # Verify the update
 
       - name: Install dependencies
         run: |
