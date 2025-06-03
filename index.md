@@ -10,14 +10,15 @@ permalink: /
 
 ### 2025.5
 - Attended SP 2025 in San Francisco.  Pictures of our colleague presenting:  [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP25-1.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP25-2.jpg).
+- Paper "GaussMarker: Robust Dual-Domain Watermark for Diffusion Models" accepted by ICML 2025.
   
 ### 2025.4
 - Zhicong Huang  serves as a PC member of ACM CCS 2025.
 - Paper "SoK: FHE-Friendly Symmetric Ciphers and Transciphering" [[paper]](https://eprint.iacr.org/2025/669) [[code]](https://github.com/AntCPLab/awesome-transciphering)  accepted by CHES 2025.
   
 ### 2025.3
-- Paper ["ZHE: Efficient Zero-Knowledge Proofs for HE Evaluations"](https://eprint.iacr.org/2025/770)  accepted by S&P 2025.
-- Paper "HyperPianist: Pianist with Linear-Time Prover and Logarithmic Communication Cost" [[paper]](https://eprint.iacr.org/2024/1273) [[code]](https://github.com/AntCPLab/HyperPianist)   accepted by S&P 2025.
+- Paper ["ZHE: Efficient Zero-Knowledge Proofs for HE Evaluations"](https://eprint.iacr.org/2025/770)  accepted by SP 2025.
+- Paper "HyperPianist: Pianist with Linear-Time Prover and Logarithmic Communication Cost" [[paper]](https://eprint.iacr.org/2024/1273) [[code]](https://github.com/AntCPLab/HyperPianist)   accepted by SP 2025.
   
 ### 2025.2
 - Paper "GraphAce: Secure Two-Party Graph Analysis Achieving Communication Efficiency"  accepted by USENIX Security 2025.
