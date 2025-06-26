@@ -6,7 +6,16 @@ nav_order: 98
 
 # Alumni
 
+2025
++ [Tianshi Xu](https://tianshi-xu.github.io/)
++ [Jialin Wu](https://lin000001.github.io/jialin/)
++ Kecen Li
++ [Rui Wen](https://wenruiustc.github.io/)
++ Wei Wan
+  
 2024
++ Xuanqi Liu
++ Liwei Liu
 + [Wen-jie Lu](https://fionser.github.io/) (-> Zhejiang University)
   
 2023
@@ -15,7 +24,6 @@ nav_order: 98
 + Jianlin Jiang (-> Tiktok)
     
 2022
-+ Yun Li
 + Xiaoli Zhang (-> Zhejiang University of Technology)
 
 2021
@@ -31,7 +39,6 @@ nav_order: 98
 + Qifei Li (-> OSR)
 + Yixuan Fang (-> Dbappsecurity)
 + Zhaorui Li (-> EPFL)
-
 
 2018
 + [Chenkai Weng](https://carlweng.github.io/) (-> Northwestern)
