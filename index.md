@@ -9,6 +9,7 @@ permalink: /
 # What's new
 
 ### 2025.6
+- Cheng Hong is elected as the chair of [Tongsuo](https://github.com/Tongsuo-Project) project management commitee.
 - Paper "XBOOT: Free-XOR Gates for CKKS with Applications to Transciphering" [[paper]](https://eprint.iacr.org/2025/074)   accepted by CHES 2025.
 
 ### 2025.5
