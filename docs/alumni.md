@@ -12,11 +12,14 @@ nav_order: 98
 + Kecen Li
 + [Rui Wen](https://wenruiustc.github.io/)
 + Wei Wan
++ Bing Shi 
   
 2024
 + Xuanqi Liu
 + Liwei Liu
 + [Wen-jie Lu](https://fionser.github.io/) (-> Zhejiang University)
++ Jiannan Zhang
+  
   
 2023
 + [Ye Dong](https://ye-d.github.io/) (-> SUTD)
