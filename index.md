@@ -10,6 +10,7 @@ permalink: /
 
 ### 2025.7
 - Paper "PANTHER: Private Approximate Nearest Neighbor Search in the Single Server Setting" [[paper]](https://eprint.iacr.org/2024/1174)  accepted by ACM CCS 2025.
+- Cheng Hong serves as a PC member of USENIX Security 2026.
   
 ### 2025.6
 - Cheng Hong is elected as the chair of [Tongsuo](https://github.com/Tongsuo-Project) project management commitee.
