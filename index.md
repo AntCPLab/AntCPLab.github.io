@@ -25,7 +25,7 @@ permalink: /
 - Paper "SoK: FHE-Friendly Symmetric Ciphers and Transciphering" [[paper]](https://eprint.iacr.org/2025/669) [[code]](https://github.com/AntCPLab/awesome-transciphering)  accepted by CHES 2025.
   
 ### 2025.3
-- Paper ["ZHE: Efficient Zero-Knowledge Proofs for HE Evaluations"](https://eprint.iacr.org/2025/770)  accepted by SP 2025.
+- Paper ["ZHE: Efficient Zero-Knowledge Proofs for HE Evaluations"](https://eprint.iacr.org/2025/770)  accepted by SP 2025. **Important update: A bug was found in Section 4, making ZHE's claimed 30x improvement no longer valid. We have proposed a fix, updated the eprint and are working on the new numbers.** 
 - Paper "HyperPianist: Pianist with Linear-Time Prover and Logarithmic Communication Cost" [[paper]](https://eprint.iacr.org/2024/1273) [[code]](https://github.com/AntCPLab/HyperPianist)   accepted by SP 2025.
   
 ### 2025.2
