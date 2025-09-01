@@ -7,6 +7,7 @@ nav_order: 98
 # Alumni
 
 2025
++ Jiaming He (-> UESTC)
 + [Tianshi Xu](https://tianshi-xu.github.io/)
 + [Jialin Wu](https://lin000001.github.io/jialin/)
 + Kecen Li
