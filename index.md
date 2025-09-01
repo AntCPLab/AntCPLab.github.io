@@ -8,6 +8,9 @@ permalink: /
 
 # What's new
 
+### 2025.8
+- Attended USENIX Security 2025 in Seattle.
+  
 ### 2025.7
 - Paper "PANTHER: Private Approximate Nearest Neighbor Search in the Single Server Setting" [[paper]](https://eprint.iacr.org/2024/1774)  accepted by ACM CCS 2025.
 - Cheng Hong serves as a PC member of USENIX Security 2026.
