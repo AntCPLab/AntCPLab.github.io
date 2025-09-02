@@ -9,7 +9,7 @@ permalink: /
 # What's new
 
 ### 2025.8
-- Attended USENIX Security 2025 in Seattle.
+- Attended USENIX Security 2025 in Seattle. Pictures of our colleagues at the sponsor's desk: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/sec25.jpg).
   
 ### 2025.7
 - Paper "PANTHER: Private Approximate Nearest Neighbor Search in the Single Server Setting" [[paper]](https://eprint.iacr.org/2024/1774)  accepted by ACM CCS 2025.
