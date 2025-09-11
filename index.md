@@ -8,6 +8,10 @@ permalink: /
 
 # What's new
 
+### 2025.9
+- Paper "EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models" accepted by SP 2026. 
+- Paper "Dory: Streaming PCG with Small Memory" accepted by SP 2026.
+  
 ### 2025.8
 - Attended USENIX Security 2025 in Seattle. Pictures of our colleagues at the sponsor's desk: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/sec25.JPG).
   
