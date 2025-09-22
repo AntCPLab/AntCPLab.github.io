@@ -9,6 +9,7 @@ permalink: /
 # What's new
 
 ### 2025.9
+- Paper "MARS: A Malignity-Aware Backdoor Defense in Federated Learning" accepted by NeurIPS 2025. 
 - Paper "EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models" accepted by SP 2026. 
 - Paper "Dory: Streaming PCG with Small Memory" accepted by SP 2026.
   
