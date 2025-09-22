@@ -17,6 +17,7 @@ permalink: /
 - Attended USENIX Security 2025 in Seattle. Pictures of our colleagues at the sponsor's desk: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/sec25.JPG).
   
 ### 2025.7
+- Attended ICML 2025 in Vancouver. Pictures: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/icml251.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/icml252.jpg).
 - Paper "PANTHER: Private Approximate Nearest Neighbor Search in the Single Server Setting" [[paper]](https://eprint.iacr.org/2024/1774)  accepted by ACM CCS 2025.
 - Cheng Hong serves as a PC member of USENIX Security 2026.
   
