@@ -12,6 +12,7 @@ permalink: /
 - Paper "MARS: A Malignity-Aware Backdoor Defense in Federated Learning" accepted by NeurIPS 2025. 
 - Paper "EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models" accepted by SP 2026. 
 - Paper "Dory: Streaming PCG with Small Memory" accepted by SP 2026.
+- Attended CHES 2025 in Kuala Lumpur: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/CHES25.png).
   
 ### 2025.8
 - Attended USENIX Security 2025 in Seattle. Pictures of our colleagues at the sponsor's desk: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/sec25.JPG).
