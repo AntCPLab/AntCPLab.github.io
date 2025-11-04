@@ -8,6 +8,10 @@ permalink: /
 
 # What's new
 
+### 2025.10
+- Cheng Hong  serves as a PC member of ACM CCS 2026.
+- Cheng Hong  receives the [top reviewer award](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/refs/heads/master/assets/images/rccs25.jpg) of ACM CCS 2025.
+
 ### 2025.9
 - Paper "MARS: A Malignity-Aware Backdoor Defense in Federated Learning" accepted by NeurIPS 2025. 
 - Paper "EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models" accepted by SP 2026. 
