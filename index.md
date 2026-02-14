@@ -8,6 +8,12 @@ permalink: /
 
 # What's new
 
+### 2026.2
+- Paper "Soloist: Distributed SNARK for R1CS with Constant Proof Size" accepted by Eurocrypt 2026.
+  
+### 2026.1
+- Paper "RBOOT: Accelerating Homomorphic Neural Network Inference by Fusing ReLU within Bootstrapping" accepted by USENIX Security 2026. 
+  
 ### 2025.11
 - The 'SM2MLKEM768' hybrid post-quantum key exchange, proposed by [Tongsuo](https://github.com/Tongsuo-Project), receives official [IANA TLS code 4590](https://www.iana.org/assignments/tls-parameters/)!
 
