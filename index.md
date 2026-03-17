@@ -8,6 +8,9 @@ permalink: /
 
 # What's new
 
+### 2026.3
+- Paper "Secure Lookup Tables: Faster, Leaner, and More General" accepted by SP 2026.
+  
 ### 2026.2
 - Paper "Soloist: Distributed SNARK for R1CS with Constant Proof Size" accepted by Eurocrypt 2026.
   
