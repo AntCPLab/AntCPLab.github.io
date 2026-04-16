@@ -8,6 +8,11 @@ permalink: /
 
 # What's new
 
+### 2026.4
+- Paper "[TEAR: Temporal-aware Automated Red-teaming for Text-to-Video Models](https://arxiv.org/abs/2511.21145)" accepted by CVPR 2026 (**Oral**).
+- Paper "[Fingerprinting LLMs via Prompt Injection](https://arxiv.org/abs/2509.25448)" accepted by ACL 2026.
+- Paper "[MOAI: Module-Optimizing Architecture for Non-Interactive Secure Transformer Inference](https://eprint.iacr.org/2025/991)" accepted by ICLR 2026.
+
 ### 2026.3
 - Paper "Secure Lookup Tables: Faster, Leaner, and More General" accepted by SP 2026.
   
