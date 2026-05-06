@@ -84,7 +84,7 @@ function switchTab(tabName) {
     <button class="tab-btn" data-tab="ai" onclick="switchTab('ai')">AI Security &amp; Privacy</button>
   </div>
 
-<div id="crypto" class="tab-content active">
+  <div id="crypto" class="tab-content active">
 
 ### 2026.4
 - Paper "[MOAI: Module-Optimizing Architecture for Non-Interactive Secure Transformer Inference](https://eprint.iacr.org/2025/991)" accepted by ICLR 2026.
@@ -262,9 +262,9 @@ Faster, Leaner, and Simpler](https://eprint.iacr.org/2018/1108.pdf) accepted by 
 2018.10
 >Attended ACM CCS 2018.
 
-</div>
+  </div>
 
-<div id="ai" class="tab-content">
+  <div id="ai" class="tab-content">
 
 ### 2026.4
 - Paper "[Fingerprinting LLMs via Prompt Injection](https://arxiv.org/abs/2509.25448)" accepted by ACL 2026.
@@ -286,6 +286,5 @@ Faster, Leaner, and Simpler](https://eprint.iacr.org/2018/1108.pdf) accepted by 
 ### 2025.4
 - Zhicong Huang  serves as a PC member of ACM CCS 2025.
 
-</div>
-
+  </div>
 </div>
