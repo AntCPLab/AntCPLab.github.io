@@ -13,6 +13,7 @@ permalink: /
 
 .tab-buttons {
   display: flex;
+  align-items: flex-end;
   gap: 0.4rem;
   padding-left: 0.5rem;
   margin-bottom: 1.75rem;
@@ -20,7 +21,7 @@ permalink: /
 }
 
 .tab-btn {
-  padding: 0.9rem 2.2rem;
+  padding: 0.7rem 2.2rem;
   border: 2px solid #ccd1d6;
   border-bottom: none;
   border-radius: 10px 10px 0 0;
@@ -29,33 +30,32 @@ permalink: /
   font-size: 1.3rem;
   font-weight: 700;
   color: #5a6470;
-  margin-bottom: -2px;
-  position: relative;
-  top: 2px;
   box-shadow: inset 0 -6px 8px -6px rgba(0,0,0,0.18);
-  transition: top 0.15s ease, background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
 .tab-btn:hover {
   background: #f7f9fc;
   color: #2c5aa0;
   border-color: #adb5bd;
-  top: 0;
+  transform: translateY(-3px);
 }
 
 .tab-btn.active {
+  padding: 0.95rem 2.2rem;
   background: #ffffff;
   color: #2c5aa0;
   border-color: #2c5aa0;
-  border-bottom-color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  margin-bottom: -2px;
   box-shadow: 0 -3px 10px rgba(44, 90, 160, 0.12);
   cursor: default;
-  top: 0;
   z-index: 1;
 }
 
 .tab-btn.active:hover {
   background: #ffffff;
+  transform: none;
 }
 
 .tab-content {
