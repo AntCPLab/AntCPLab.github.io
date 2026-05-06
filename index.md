@@ -56,8 +56,8 @@ permalink: /
 
 <div class="tab-container">
   <div class="tab-buttons">
-    <button class="tab-btn active" onclick="switchTab(event, 'crypto')">🔐 Crypto</button>
-    <button class="tab-btn" onclick="switchTab(event, 'ai')">🤖 AI</button>
+    <button class="tab-btn active" data-tab="crypto">🔐 Crypto</button>
+    <button class="tab-btn" data-tab="ai">🤖 AI</button>
   </div>
 
   <div id="crypto" class="tab-content active" markdown="1">
@@ -296,17 +296,23 @@ permalink: /
 </div>
 
 <script>
-function switchTab(event, tabName) {
-  // 隐藏所有tab内容
-  const contents = document.querySelectorAll('.tab-content');
-  contents.forEach(content => content.classList.remove('active'));
-  
-  // 取消所有按钮的active状态
+document.addEventListener('DOMContentLoaded', function() {
   const buttons = document.querySelectorAll('.tab-btn');
-  buttons.forEach(btn => btn.classList.remove('active'));
-  
-  // 显示当前tab
-  document.getElementById(tabName).classList.add('active');
-  event.target.classList.add('active');
-}
+  buttons.forEach(button => {
+    button.addEventListener('click', function() {
+      const tabName = this.getAttribute('data-tab');
+      
+      // 隐藏所有tab内容
+      const contents = document.querySelectorAll('.tab-content');
+      contents.forEach(content => content.classList.remove('active'));
+      
+      // 取消所有按钮的active状态
+      buttons.forEach(btn => btn.classList.remove('active'));
+      
+      // 显示当前tab
+      document.getElementById(tabName).classList.add('active');
+      this.classList.add('active');
+    });
+  });
+});
 </script>
