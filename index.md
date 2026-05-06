@@ -54,6 +54,7 @@ permalink: /
 }
 </style>
 
+{% raw %}
 <script>
 function switchTab(tabName) {
   // 隐藏所有 tab 内容
@@ -78,6 +79,7 @@ function switchTab(tabName) {
   }
 }
 </script>
+{% endraw %}
 
 <div class="tab-container">
   <div class="tab-buttons">
@@ -85,7 +87,7 @@ function switchTab(tabName) {
     <button class="tab-btn" data-tab="ai" onclick="switchTab('ai')">🤖 AI</button>
   </div>
 
-  <div id="crypto" class="tab-content active" markdown="1">
+  <div id="crypto" class="tab-content active">
 
 # Applied Crypto
 
@@ -293,7 +295,7 @@ function switchTab(tabName) {
 
   </div>
 
-  <div id="ai" class="tab-content" markdown="1">
+  <div id="ai" class="tab-content">
 
 # AI Security & Privacy
 
