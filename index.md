@@ -6,11 +6,65 @@ description: "Ant CP Lab"
 permalink: /
 ---
 
-# What's new
+<style>
+.tab-container {
+  margin-bottom: 2rem;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.tab-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tab-btn.active {
+  color: #2c5aa0;
+  border-bottom-color: #2c5aa0;
+}
+
+.tab-btn:hover {
+  color: #2c5aa0;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+</style>
+
+<div class="tab-container">
+  <div class="tab-buttons">
+    <button class="tab-btn active" onclick="switchTab('crypto')">🔐 Crypto</button>
+    <button class="tab-btn" onclick="switchTab('ai')">🤖 AI</button>
+  </div>
+
+  <div id="crypto" class="tab-content active">
+
+# Applied Crypto
 
 ### 2026.4
-- Paper "[TEAR: Temporal-aware Automated Red-teaming for Text-to-Video Models](https://arxiv.org/abs/2511.21145)" accepted by CVPR 2026 (**Oral**).
-- Paper "[Fingerprinting LLMs via Prompt Injection](https://arxiv.org/abs/2509.25448)" accepted by ACL 2026.
 - Paper "[MOAI: Module-Optimizing Architecture for Non-Interactive Secure Transformer Inference](https://eprint.iacr.org/2025/991)" accepted by ICLR 2026.
 
 ### 2026.3
@@ -30,8 +84,6 @@ permalink: /
 - Cheng Hong  receives the [top reviewer award](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/refs/heads/master/assets/images/rccs25.jpg) of ACM CCS 2025.
 
 ### 2025.9
-- Paper "MARS: A Malignity-Aware Backdoor Defense in Federated Learning" accepted by NeurIPS 2025. 
-- Paper "EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models" accepted by SP 2026. 
 - Paper "Dory: Streaming PCG with Small Memory" accepted by SP 2026.
 - Attended CHES 2025 in Kuala Lumpur: [pic](https://antcplab.github.io/assets/images/CHES25.png).
   
@@ -39,7 +91,6 @@ permalink: /
 - Attended USENIX Security 2025 in Seattle. Pictures of our colleagues at the sponsor's desk: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/sec25.JPG).
   
 ### 2025.7
-- Attended ICML 2025 in Vancouver. Pictures: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/icml251.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/icml252.jpg).
 - Paper "PANTHER: Private Approximate Nearest Neighbor Search in the Single Server Setting" [[paper]](https://eprint.iacr.org/2024/1774)  accepted by ACM CCS 2025.
 - Cheng Hong serves as a PC member of USENIX Security 2026.
   
@@ -50,8 +101,7 @@ permalink: /
 ### 2025.5
 - Cheng Hong  receives the [Distinguished Young Scientist Award](https://kw.beijing.gov.cn/ztzl/2024ndbjskxjsjl/2024jcqnzgcj/) from Beijing People's Goverment.
 - Attended SP 2025 in San Francisco.  Pictures of our colleague presenting:  [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP25-1.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP25-2.jpg).
-- Paper "GaussMarker: Robust Dual-Domain Watermark for Diffusion Models" [[paper]](https://arxiv.org/abs/2506.11444) accepted by ICML 2025.
-  
+ 
 ### 2025.4
 - Zhicong Huang  serves as a PC member of ACM CCS 2025.
 - Paper "SoK: FHE-Friendly Symmetric Ciphers and Transciphering" [[paper]](https://eprint.iacr.org/2025/669) [[code]](https://github.com/AntCPLab/awesome-transciphering)  accepted by CHES 2025.
@@ -125,12 +175,6 @@ permalink: /
 
 ### Prior works at Alibaba Gemini Lab
 
-2022.8
->We just deliver a major update to [TF Encrypted](https://github.com/tf-encrypted/tf-encrypted),  including benchmarks on several PPML operations such as NN training and inference. Please check the new [performance section](https://github.com/tf-encrypted/tf-encrypted/blob/master/README.md#performance).
-
-2022.3
->The [Microsoft SEAL](https://github.com/microsoft/SEAL) homomorphic encryption library released version 4.0,  including the [BGV implementation](https://github.com/microsoft/SEAL/pull/283) we contributed.
-
 2022.2
 >Paper [Cheetah:Lean and Fast Secure Two-Party Deep Neural Network Inference](https://eprint.iacr.org/2022/207) accepted by USENIX'Sec 2022.
 
@@ -158,15 +202,10 @@ permalink: /
 
 >Paper [hPRESS: A Hardware-enhanced Proxy Re-encryption Scheme using Secure Enclave](https://ieeexplore.ieee.org/document/9187972) accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).
 
-2020.8
->Giving a [talk](https://isc.360.com/2020/another.html?uid=5010) about Federated learning and Secure Multi-party Computation in [ISC2020](https://isc.360.com).
-
 2020.2
 >Paper [Privacy-preserving collaborative machine learning on genomic data using TensorFlow](https://arxiv.org/abs/2002.04344) accepted  to the Trustworthy ML Workshop co-located with ICLR 2020. **Update: We received the best paper award !** 
 
 2020.1
->Paper "Secure Social Recommendation based on Secret Sharing" accepted by ECAI2020.
-
 >Paper "HomoPAI: A Secure Collaborative Machine Learning Platform based on Homomorphic Encryption" accepted by ICDE2020 demo track. Watch the demo video on [优酷](https://v.youku.com/v_show/id_XNDQ4NDQyNzIwOA==) or [YouTube](https://youtu.be/LIWjsnKuOMk).
 
 2019.12
@@ -175,11 +214,6 @@ permalink: /
 >We have open-sourced our competition code to [TF-Encrypted](https://github.com/tf-encrypted/tf-encrypted/pull/721) and received their [official acknowledgements](https://twitter.com/tf_encrypted/status/1207612275663757312) !
 
 >Attended NeurIPS2019.
-
-2019.11
->Invited as panelist to [2019 Westlake International Forum on Cyber Security Research](https://icsr.zju.edu.cn/xihu2019/en/).
-
->Joined [MPC Alliance](https://www.mpcalliance.org/).
 
 2019.10
 >Short paper [Quantification of the Leakage in Federated Learning](https://arxiv.org/abs/1910.05467) accepted by the Workshop on Federated Learning for Data Privacy and Confidentiality in Conjunction with NeurIPS 2019 (FL-NeurIPS-19). 
@@ -203,18 +237,50 @@ permalink: /
 >Paper [Covert Security with Public Verifiability:
 Faster, Leaner, and Simpler](https://eprint.iacr.org/2018/1108.pdf) accepted by EUROCRYPT2019.
 
-2018.11
->Invited as panelist to [2018 Westlake International Forum on Cyber Security Research](https://icsr.zju.edu.cn/xihu2018/en/index.htm) .
-
 2018.10
 >Attended ACM CCS 2018.
 
-2018.5
->Attended [TPMPC2018](https://www.multipartycomputation.com/tpmpc-2018).
+  </div>
 
->Witnessed the [inaugural ceremony](https://www.zju.edu.cn/english/2018/0610/c19573a816865/page.htm) of the AZFT Cyberspace Security Lab.
+  <div id="ai" class="tab-content">
 
-2017.11
->Attended ACM CCS 2017.
+# AI Security & Privacy
 
+### 2026.4
+- Paper "[Fingerprinting LLMs via Prompt Injection](https://arxiv.org/abs/2509.25448)" accepted by ACL 2026.
 
+### 2026.2
+- Paper "[TEAR: Temporal-aware Automated Red-teaming for Text-to-Video Models](https://arxiv.org/abs/2511.21145)" accepted by CVPR 2026 (**Oral**).
+  
+### 2025.9
+- Paper "MARS: A Malignity-Aware Backdoor Defense in Federated Learning" accepted by NeurIPS 2025.
+- Paper "EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models" accepted by SP 2026.
+
+### 2025.7
+- Attended ICML 2025 in Vancouver. Pictures: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/icml251.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/icml252.jpg).
+- Zhicong Huang serves as a PC member of USENIX Security 2026.
+
+### 2025.5
+- Paper "GaussMarker: Robust Dual-Domain Watermark for Diffusion Models" [[paper]](https://arxiv.org/abs/2506.11444) accepted by ICML 2025.
+ 
+### 2025.4
+- Zhicong Huang  serves as a PC member of ACM CCS 2025.
+  
+  </div>
+</div>
+
+<script>
+function switchTab(tabName) {
+  // 隐藏所有tab内容
+  const contents = document.querySelectorAll('.tab-content');
+  contents.forEach(content => content.classList.remove('active'));
+  
+  // 取消所有按钮的active状态
+  const buttons = document.querySelectorAll('.tab-btn');
+  buttons.forEach(btn => btn.classList.remove('active'));
+  
+  // 显示当前tab
+  document.getElementById(tabName).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
