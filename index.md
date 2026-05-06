@@ -13,30 +13,49 @@ permalink: /
 
 .tab-buttons {
   display: flex;
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-bottom: 2px solid #e5e5e5;
+  gap: 0.4rem;
+  padding-left: 0.5rem;
+  margin-bottom: 1.75rem;
+  border-bottom: 2px solid #2c5aa0;
 }
 
 .tab-btn {
-  padding: 1.25rem 2.5rem;
-  border: none;
-  background: none;
+  padding: 0.9rem 2.2rem;
+  border: 2px solid #ccd1d6;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  background: #eef1f5;
   cursor: pointer;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 700;
-  color: #666;
-  border-bottom: 4px solid transparent;
-  transition: all 0.3s ease;
-}
-
-.tab-btn.active {
-  color: #2c5aa0;
-  border-bottom-color: #2c5aa0;
+  color: #5a6470;
+  margin-bottom: -2px;
+  position: relative;
+  top: 2px;
+  box-shadow: inset 0 -6px 8px -6px rgba(0,0,0,0.18);
+  transition: top 0.15s ease, background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
 .tab-btn:hover {
+  background: #f7f9fc;
   color: #2c5aa0;
+  border-color: #adb5bd;
+  top: 0;
+}
+
+.tab-btn.active {
+  background: #ffffff;
+  color: #2c5aa0;
+  border-color: #2c5aa0;
+  border-bottom-color: #ffffff;
+  box-shadow: 0 -3px 10px rgba(44, 90, 160, 0.12);
+  cursor: default;
+  top: 0;
+  z-index: 1;
+}
+
+.tab-btn.active:hover {
+  background: #ffffff;
 }
 
 .tab-content {
