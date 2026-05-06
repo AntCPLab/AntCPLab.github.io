@@ -56,11 +56,11 @@ permalink: /
 
 <div class="tab-container">
   <div class="tab-buttons">
-    <button class="tab-btn active" onclick="switchTab('crypto')">🔐 Crypto</button>
-    <button class="tab-btn" onclick="switchTab('ai')">🤖 AI</button>
+    <button class="tab-btn active" onclick="switchTab(event, 'crypto')">🔐 Crypto</button>
+    <button class="tab-btn" onclick="switchTab(event, 'ai')">🤖 AI</button>
   </div>
 
-  <div id="crypto" class="tab-content active">
+  <div id="crypto" class="tab-content active" markdown="1">
 
 # Applied Crypto
 
@@ -77,7 +77,7 @@ permalink: /
 - Paper "RBOOT: Accelerating Homomorphic Neural Network Inference by Fusing ReLU within Bootstrapping" accepted by USENIX Security 2026. 
   
 ### 2025.11
-- The 'SM2MLKEM768' hybrid post-quantum key exchange, proposed by [Tongsuo](https://github.com/Tongsuo-Project), receives official [IANA TLS code 4590](https://www.iana.org/assignments/tls-parameters/)!
+- The 'SM2MLKEM768' hybrid post-quantum key exchange, proposed by [Tongsuo](https://github.com/Tongsuo-Project), receives official [IANA TLS code 4590](https://www.iana.org/assignments/tls-paramet[...]
 
 ### 2025.10
 - Cheng Hong  serves as a PC member of ACM CCS 2026.
@@ -96,19 +96,19 @@ permalink: /
   
 ### 2025.6
 - Cheng Hong is elected as the chair of [Tongsuo](https://github.com/Tongsuo-Project) project management commitee.
-- Paper "XBOOT: Free-XOR Gates for CKKS with Applications to Transciphering" [[paper]](https://eprint.iacr.org/2025/074) [[code]](https://github.com/AntCPLab/xboot-ckks-transciphering)   accepted by CHES 2025.
+- Paper "XBOOT: Free-XOR Gates for CKKS with Applications to Transciphering" [[paper]](https://eprint.iacr.org/2025/074) [[code]](https://github.com/AntCPLab/xboot-ckks-transciphering)   accepted [...]
 
 ### 2025.5
 - Cheng Hong  receives the [Distinguished Young Scientist Award](https://kw.beijing.gov.cn/ztzl/2024ndbjskxjsjl/2024jcqnzgcj/) from Beijing People's Goverment.
-- Attended SP 2025 in San Francisco.  Pictures of our colleague presenting:  [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP25-1.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP25-2.jpg).
+- Attended SP 2025 in San Francisco.  Pictures of our colleague presenting:  [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP25-1.jpg) and [pic2](https[...]
  
 ### 2025.4
 - Zhicong Huang  serves as a PC member of ACM CCS 2025.
 - Paper "SoK: FHE-Friendly Symmetric Ciphers and Transciphering" [[paper]](https://eprint.iacr.org/2025/669) [[code]](https://github.com/AntCPLab/awesome-transciphering)  accepted by CHES 2025.
   
 ### 2025.3
-- Paper ["ZHE: Efficient Zero-Knowledge Proofs for HE Evaluations"](https://eprint.iacr.org/2025/770)  accepted by SP 2025. **Important update: A bug was found in Section 4, making ZHE's claimed 30x overhead no longer valid. We have proposed a fix, updated the eprint and are working on the new numbers.** 
-- Paper "HyperPianist: Pianist with Linear-Time Prover and Logarithmic Communication Cost" [[paper]](https://eprint.iacr.org/2024/1273) [[code]](https://github.com/AntCPLab/HyperPianist)   accepted by SP 2025.
+- Paper ["ZHE: Efficient Zero-Knowledge Proofs for HE Evaluations"](https://eprint.iacr.org/2025/770)  accepted by SP 2025. **Important update: A bug was found in Section 4, making ZHE's claimed [...]
+- Paper "HyperPianist: Pianist with Linear-Time Prover and Logarithmic Communication Cost" [[paper]](https://eprint.iacr.org/2024/1273) [[code]](https://github.com/AntCPLab/HyperPianist)   accept[...]
   
 ### 2025.2
 - Paper "GraphAce: Secure Two-Party Graph Analysis Achieving Communication Efficiency"  accepted by USENIX Security 2025.
@@ -121,45 +121,45 @@ permalink: /
 - Attended ChinaCrypt 2024 in Hangzhou.  Pictures of our colleagues presenting: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/CHINACRYPT2024.jpg).
   
 ### 2024.10
-- Attended [ACM CCS 2024](https://www.sigsac.org/ccs/CCS2024/) in Salt Lake City.  Pictures of our colleagues presenting: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/CCS2024.jpg). 
+- Attended [ACM CCS 2024](https://www.sigsac.org/ccs/CCS2024/) in Salt Lake City.  Pictures of our colleagues presenting: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/maste[...]
 
 ### 2024.8
   
-- Paper "Coral: Maliciously Secure Computation Framework for Packed and Mixed Circuits" [[paper]](https://eprint.iacr.org/2024/1372) [[code]](https://github.com/AntCPLab/OpenCoral) accepted by ACM CCS 2024.
-- Paper "Sublinear Distributed Product Checks on Replicated Secret-Shared Data over  without Ring Extensions" [[paper]](https://eprint.iacr.org/2024/700) [[code]](https://github.com/AntCPLab/malicious_3pc_arithmetic)  accepted by ACM CCS 2024.
-- Attended [USENIX Security 2024](https://www.usenix.org/conference/usenixsecurity24/) in Philadelphia as a silver sponsor.  Pictures of our colleagues at the sponsor's desk: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/USENIX24.jpg).
+- Paper "Coral: Maliciously Secure Computation Framework for Packed and Mixed Circuits" [[paper]](https://eprint.iacr.org/2024/1372) [[code]](https://github.com/AntCPLab/OpenCoral) accepted by AC[...]
+- Paper "Sublinear Distributed Product Checks on Replicated Secret-Shared Data over  without Ring Extensions" [[paper]](https://eprint.iacr.org/2024/700) [[code]](https://github.com/AntCPLab/mali[...]
+- Attended [USENIX Security 2024](https://www.usenix.org/conference/usenixsecurity24/) in Philadelphia as a silver sponsor.  Pictures of our colleagues at the sponsor's desk: [pic](https://raw.gi[...]
   
 ### 2024.7
 
-- Paper "BumbleBee: Secure Two-party Inference Framework for Large Transformers" [[paper]](https://eprint.iacr.org/2023/1678) [[code]](https://github.com/AntCPLab/OpenBumbleBee)  accepted by NDSS 2025.
+- Paper "BumbleBee: Secure Two-party Inference Framework for Large Transformers" [[paper]](https://eprint.iacr.org/2023/1678) [[code]](https://github.com/AntCPLab/OpenBumbleBee)  accepted by NDSS[...]
   
 ### 2024.5
 
-- Attended [SP 2024](https://sp2024.ieee-security.org/index.html) in San Francisco.  Pictures of our colleagues presenting: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/SP24.jpg). 
+- Attended [SP 2024](https://sp2024.ieee-security.org/index.html) in San Francisco.  Pictures of our colleagues presenting: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/mas[...]
 
 ### 2024.1
 - Cheng Hong  serves as a PC member of PKC 2024.
 
 ### 2023.12
 
-- Attended [ACM CCS 2023](https://www.sigsac.org/ccs/CCS2023/index.html) in Copenhagen as a platinum sponsor. [Picture](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/CCS%202023.JPG) of our colleagues at the table of Ant Research.
+- Attended [ACM CCS 2023](https://www.sigsac.org/ccs/CCS2023/index.html) in Copenhagen as a platinum sponsor. [Picture](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets[...]
 
 ### 2023.8
 
-- Attended [USENIX Security 2023](https://www.usenix.org/conference/usenixsecurity23/) in Anaheim. Pictures of our colleagues presenting: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-1.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/usenix23-2.JPG).
+- Attended [USENIX Security 2023](https://www.usenix.org/conference/usenixsecurity23/) in Anaheim. Pictures of our colleagues presenting: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLa[...]
 
 - Paper [Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA](https://www.usenix.org/system/files/sec23winter-prepub-4-ren.pdf)   accepted by USENIX Security 2024.
 
 ### 2023.5
 
-- Paper "Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference" [[paper]](https://eprint.iacr.org/2023/909) [[code]](https://github.com/AntCPLab/malicious_3pc_binary)  accepted by USENIX Security 2023. 
+- Paper "Efficient 3PC for Binary Circuits with Application to Maliciously-Secure DNN Inference" [[paper]](https://eprint.iacr.org/2023/909) [[code]](https://github.com/AntCPLab/malicious_3pc_bin[...]
 - Attended [SP 2023](https://sp2023.ieee-security.org/index.html) in San Francisco.
 
 ### 2023.4
 
-- Paper "CHAM：A Customized Homomorphic Encryption Accelerator for Fast Matrix-Vector Product"[[paper]](https://github.com/alibaba-damo-academy/damo_ctl_cham/blob/main/DAC_2023_CHAM.pdf)[[code]](https://github.com/alibaba-damo-academy/damo_ctl_cham)  accepted by DAC 2023.
+- Paper "CHAM：A Customized Homomorphic Encryption Accelerator for Fast Matrix-Vector Product"[[paper]](https://github.com/alibaba-damo-academy/damo_ctl_cham/blob/main/DAC_2023_CHAM.pdf)[[code]][...]
 
-- [An Attack on RIAC Homomorphic Encryption Algorithm](http://www.jcr.cacrnet.org.cn/CN/10.13868/j.cnki.jcr.000604) was published in Journal of Cryptologic Research (in Chinese). It describes how we broke the [RIAC (Random iterative affine cipher)](https://fate.readthedocs.io/en/develop-1.5/_build_temp/python/federatedml/secureprotol/README.html#iterativeaffine-homomorphic-encryption) in 2022.1.
+- [An Attack on RIAC Homomorphic Encryption Algorithm](http://www.jcr.cacrnet.org.cn/CN/10.13868/j.cnki.jcr.000604) was published in Journal of Cryptologic Research (in Chinese). It describes how[...]
 
 ### 2023.3
 
@@ -167,7 +167,7 @@ permalink: /
 
 ### 2023.2
 
-- Paper "Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree" [[paper]](https://eprint.iacr.org/2023/527) [[code]](https://github.com/secretflow/spu/tree/main/experimental/squirrel)  accepted by USENIX Security 2023.
+- Paper "Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree" [[paper]](https://eprint.iacr.org/2023/527) [[code]](https://github.com/secretfl[...]
 
 ### 2023.1
 
@@ -179,7 +179,7 @@ permalink: /
 >Paper [Cheetah:Lean and Fast Secure Two-Party Deep Neural Network Inference](https://eprint.iacr.org/2022/207) accepted by USENIX'Sec 2022.
 
 2022.1
->We found that the [RIAC (Random iterative affine cipher)](https://fate.readthedocs.io/en/develop-1.5/_build_temp/python/federatedml/secureprotol/README.html#iterativeaffine-homomorphic-encryption) used in several federated learning frameworks is broken. Please **immediately** stop using RIAC and check previous RIAC ciphertexts if there's any. We have contacted the [affected community](https://mp.weixin.qq.com/s/BoW184Uhf7iF_uZlMZhnMg) and will publish the exploit details once we are allowed.
+>We found that the [RIAC (Random iterative affine cipher)](https://fate.readthedocs.io/en/develop-1.5/_build_temp/python/federatedml/secureprotol/README.html#iterativeaffine-homomorphic-encryptio[...]
 
 2021.12
 >Paper [More Efficient Secure Matrix Multiplication for Unbalanced Recommender Systems](https://www.computer.org/csdl/journal/tq/5555/01/09665288/1zJiScWQJ1e) accepted by IEEE TDSC.
@@ -200,23 +200,23 @@ permalink: /
 
 >Paper [Faster Secure Multiparty Computation of Adaptive Gradient Descent](https://dl.acm.org/doi/10.1145/3411501.3419427) accepted by the PPMLP workshop in Conjunction with CCS2020.
 
->Paper [hPRESS: A Hardware-enhanced Proxy Re-encryption Scheme using Secure Enclave](https://ieeexplore.ieee.org/document/9187972) accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).
+>Paper [hPRESS: A Hardware-enhanced Proxy Re-encryption Scheme using Secure Enclave](https://ieeexplore.ieee.org/document/9187972) accepted by IEEE Transactions on Computer-Aided Design of Integr[...]
 
 2020.2
->Paper [Privacy-preserving collaborative machine learning on genomic data using TensorFlow](https://arxiv.org/abs/2002.04344) accepted  to the Trustworthy ML Workshop co-located with ICLR 2020. **Update: We received the best paper award !** 
+>Paper [Privacy-preserving collaborative machine learning on genomic data using TensorFlow](https://arxiv.org/abs/2002.04344) accepted  to the Trustworthy ML Workshop co-located with ICLR 2020. *[...]
 
 2020.1
->Paper "HomoPAI: A Secure Collaborative Machine Learning Platform based on Homomorphic Encryption" accepted by ICDE2020 demo track. Watch the demo video on [优酷](https://v.youku.com/v_show/id_XNDQ4NDQyNzIwOA==) or [YouTube](https://youtu.be/LIWjsnKuOMk).
+>Paper "HomoPAI: A Secure Collaborative Machine Learning Platform based on Homomorphic Encryption" accepted by ICDE2020 demo track. Watch the demo video on [优酷](https://v.youku.com/v_show/id_[...]
 
 2019.12
 >We are named the first place in Track IV of [iDASH2019 secure genome analysis competition](http://www.humangenomeprivacy.org/2019/). 
 >
->We have open-sourced our competition code to [TF-Encrypted](https://github.com/tf-encrypted/tf-encrypted/pull/721) and received their [official acknowledgements](https://twitter.com/tf_encrypted/status/1207612275663757312) !
+>We have open-sourced our competition code to [TF-Encrypted](https://github.com/tf-encrypted/tf-encrypted/pull/721) and received their [official acknowledgements](https://twitter.com/tf_encrypted[...]
 
 >Attended NeurIPS2019.
 
 2019.10
->Short paper [Quantification of the Leakage in Federated Learning](https://arxiv.org/abs/1910.05467) accepted by the Workshop on Federated Learning for Data Privacy and Confidentiality in Conjunction with NeurIPS 2019 (FL-NeurIPS-19). 
+>Short paper [Quantification of the Leakage in Federated Learning](https://arxiv.org/abs/1910.05467) accepted by the Workshop on Federated Learning for Data Privacy and Confidentiality in Conjunc[...]
 
 >Paper [DPSAaS: Multi-Dimensional Data Sharing and Analytics as Services under Local Differential Privacy](http://www.vldb.org/pvldb/vol12/p1862-xu.pdf) accepted by VLDB2019 demo track.
 
@@ -242,7 +242,7 @@ Faster, Leaner, and Simpler](https://eprint.iacr.org/2018/1108.pdf) accepted by 
 
   </div>
 
-  <div id="ai" class="tab-content">
+  <div id="ai" class="tab-content" markdown="1">
 
 # AI Security & Privacy
 
@@ -257,7 +257,7 @@ Faster, Leaner, and Simpler](https://eprint.iacr.org/2018/1108.pdf) accepted by 
 - Paper "EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models" accepted by SP 2026.
 
 ### 2025.7
-- Attended ICML 2025 in Vancouver. Pictures: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/icml251.jpg) and [pic2](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/icml252.jpg).
+- Attended ICML 2025 in Vancouver. Pictures: [pic1](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/icml251.jpg) and [pic2](https://raw.githubusercontent.com/An[...]
 - Zhicong Huang serves as a PC member of USENIX Security 2026.
 
 ### 2025.5
@@ -270,7 +270,7 @@ Faster, Leaner, and Simpler](https://eprint.iacr.org/2018/1108.pdf) accepted by 
 </div>
 
 <script>
-function switchTab(tabName) {
+function switchTab(event, tabName) {
   // 隐藏所有tab内容
   const contents = document.querySelectorAll('.tab-content');
   contents.forEach(content => content.classList.remove('active'));
