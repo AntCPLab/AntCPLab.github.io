@@ -54,10 +54,35 @@ permalink: /
 }
 </style>
 
+<script>
+function switchTab(tabName) {
+  // 隐藏所有 tab 内容
+  var contents = document.querySelectorAll('.tab-content');
+  for (var i = 0; i < contents.length; i++) {
+    contents[i].classList.remove('active');
+  }
+  
+  // 取消所有按钮的 active 状态
+  var buttons = document.querySelectorAll('.tab-btn');
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].classList.remove('active');
+  }
+  
+  // 显示当前 tab
+  document.getElementById(tabName).classList.add('active');
+  
+  // 激活当前按钮
+  var activeBtn = document.querySelector('.tab-btn[data-tab="' + tabName + '"]');
+  if (activeBtn) {
+    activeBtn.classList.add('active');
+  }
+}
+</script>
+
 <div class="tab-container">
   <div class="tab-buttons">
-    <button class="tab-btn active" data-tab="crypto">🔐 Crypto</button>
-    <button class="tab-btn" data-tab="ai">🤖 AI</button>
+    <button class="tab-btn active" data-tab="crypto" onclick="switchTab('crypto')">🔐 Crypto</button>
+    <button class="tab-btn" data-tab="ai" onclick="switchTab('ai')">🤖 AI</button>
   </div>
 
   <div id="crypto" class="tab-content active" markdown="1">
@@ -85,7 +110,7 @@ permalink: /
 
 ### 2025.9
 - Paper "Dory: Streaming PCG with Small Memory" accepted by SP 2026.
-- Attended CHES 2025 in Kuala Lumpur: [pic](https://antcplab.github.io/assets/images/CHES25.png).
+- Attended CHES 2025 in Kuala Lumpur: [pic](https://antcplab.github.io/assets/images/CHES2025.png).
   
 ### 2025.8
 - Attended USENIX Security 2025 in Seattle. Pictures of our colleagues at the sponsor's desk: [pic](https://raw.githubusercontent.com/AntCPLab/AntCPLab.github.io/master/assets/images/sec25.JPG).
@@ -294,25 +319,3 @@ permalink: /
   
   </div>
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const buttons = document.querySelectorAll('.tab-btn');
-  buttons.forEach(button => {
-    button.addEventListener('click', function() {
-      const tabName = this.getAttribute('data-tab');
-      
-      // 隐藏所有tab内容
-      const contents = document.querySelectorAll('.tab-content');
-      contents.forEach(content => content.classList.remove('active'));
-      
-      // 取消所有按钮的active状态
-      buttons.forEach(btn => btn.classList.remove('active'));
-      
-      // 显示当前tab
-      document.getElementById(tabName).classList.add('active');
-      this.classList.add('active');
-    });
-  });
-});
-</script>
