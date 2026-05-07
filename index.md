@@ -285,6 +285,10 @@ Faster, Leaner, and Simpler](https://eprint.iacr.org/2018/1108.pdf) accepted by 
 
   <div id="ai" class="tab-content" markdown="1">
 
+### 2026.5
+- Paper "[Semantic Router: On the Feasibility of Hijacking MLLMs via a Single Adversarial Perturbation](https://arxiv.org/abs/2511.20002)" accepted by ICML 2026.
+- Paper "[Revis: Sparse Latent Steering to Mitigate Object Hallucination in Large Vision-Language Models](https://arxiv.org/abs/2602.11824)" accepted by ICML 2026.
+
 ### 2026.4
 - Paper "[Fingerprinting LLMs via Prompt Injection](https://arxiv.org/abs/2509.25448)" accepted by ACL 2026.
 
