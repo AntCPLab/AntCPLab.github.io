@@ -118,7 +118,7 @@ function switchTab(tabName) {
 - Paper "RBOOT: Accelerating Homomorphic Neural Network Inference by Fusing ReLU within Bootstrapping" accepted by USENIX Security 2026. 
   
 ### 2025.11
-- The 'SM2MLKEM768' hybrid post-quantum key exchange, proposed by [Tongsuo](https://github.com/Tongsuo-Project), receives official [IANA TLS code 4590](https://www.iana.org/assignments/tls-parameters/)!
+- The 'SM2MLKEM768' hybrid post-quantum key exchange protocol, proposed by [Tongsuo](https://github.com/Tongsuo-Project), receives official [TLS code 4590](https://www.iana.org/assignments/tls-parameters/), and has been integrated in [OpenSSL 4.0.0](https://github.com/openssl/openssl/releases/tag/openssl-4.0.0).
 
 ### 2025.10
 - Cheng Hong  serves as a PC member of ACM CCS 2026.
